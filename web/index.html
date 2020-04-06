@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  
+    <title>Vector Space Model</title> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body>
+    <div class="container" id="div0">
+    <div id="div01"><span id="sp1">In</span><span id="sp2">fo</span><span id="sp3">rm</span><span id="sp4">at</span><span id="sp5">ion</span> <span id="sp6">Re</span><span id="sp7">tr</span><span id="sp8">ie</span><span id="sp9">val</span></div>
+    <div id="div02">  
+    <h2><span id="sp11"> Vector</span> <span id="sp12">Space</span> <span id="sp13">Model</span></h2>
+      <h2><12,2,0,0,1>  <0,1,5,5,1></h2>
+    </div>
+  </div>
+    <div id="body">
+     
+      <div class="container">
+        <h6 style="font-weight: bolder;color: blueviolet;margin-bottom: -3px;">Run From Scratch</h6>
+        <br/>
+      <label class="switch">
+        <input type="checkbox" onchange="changeChoice()">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+        <div class="col"  >
+          <label ><h3>Enter Query Here</h3></label>
+          <input id="input1" class="form-control" style="width: 180%;">
+        </div>
+        <div class="col" style="margin-left: 27%;">
+          <label ><h3>Enter Cutoff</h3></label>
+          <input style="width: 30%;" type="text" class="form-control" id="input2">
+        </div>
+      </div>
+      <div class="container-fluid" id="div4">
+        <button style="margin-left:-20%;" class="btn btn-outline-primary" id="btn1" onclick="call_python()"><span id="sp21">S</span><span id="sp22">e</span><span id="sp23">a</span><span id="sp24">r</span><span id="sp25">c</span><span id="sp26">h</span></button>
+      </div>
+      <h5 id="Alert" style="color: red;margin-left: 23%;margin-top: 10px;"></h5>
+
+    </div>
+      <br/>
+      <br/>
+
+      <div class="container" id="answer">
+
+
+      </div>
+
+    </div>
+  <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript">
+        var choice=true
+        var response = ""
+        eel.expose(say_hello_js);               // Expose this function to Python
+        function say_hello_js(x) {
+          console.log("kasjasdjk")
+            document.getElementById("Alert").innerHTML = x;
+        }
+
+        function changeChoice(){
+          console.log("Choice Changed")
+          this.choice=!this.choice
+        } 
+        function call_python(){
+        console.log(this.choice)
+        document.getElementById("answer").innerHTML = ""
+        var query = document.getElementById("input1").value
+        var cutoff = document.getElementById("input2").value
+        if(query=="" || cutoff==""){
+          document.getElementById("Alert").innerHTML = "Pease Fill Both Feilds"
+        return
+        }
+        var decimal=  /^-?\d*(\.\d+)?$/;
+        console.log(cutoff)
+        if(!(cutoff.match(decimal))){
+          document.getElementById("Alert").innerHTML = "Invalid Cutoff ...."
+          return
+        }
+        var val = 0
+        document.getElementById("Alert").innerHTML = ""
+        if(choice){
+          val = 1
+        }
+        eel.say_hello_py(query,cutoff,val)(function(result){
+          document.getElementById("Alert").innerHTML=""
+          document.getElementById("answer").innerHTML = result
+        });  // Call a Python function
+        
+        }
+        </script>
+
+  </body>
+</html>
