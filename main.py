@@ -4,6 +4,8 @@ from nltk.stem import WordNetLemmatizer
 import math  
 from nltk.stem.porter import *
 from PyQt5 import QtCore, QtGui, QtWidgets
+import nltk
+nltk.download('wordnet')
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer() 
 Ltoken = []
@@ -448,10 +450,9 @@ def fetch_docs( parsed, query_tf, results):
     return weight
 
 
-
+import copy
 def entertain(text,cutoff,choice):
-    import nltk
-    nltk.download('wordnet')
+    
     print(choice)
     parsed = parse_Query(text)
     if(choice==1):
@@ -482,14 +483,43 @@ def entertain(text,cutoff,choice):
     counter =0
     print(float(cutoff))
     for i in range(len(result)):
+        real_query = copy.deepcopy(parsed)
+        text = ""
         if(result[i]>=float(cutoff)):
-            ans.append("(doc{}-{})".format(docs[i],result[i]))
+            text+="(Doc#{}--{})\n".format(docs[i],result[i])
             counter+=1
+
+            #Fetch Summary
+            file = open('./Trump Speechs/speech_{}.txt'.format(docs[i]))
+            data = file.read().split('.')
+            counter1 = 0
+            flag=0
+            for line in data:
+                for k in range(len(real_query)-1,-1,-1):
+                    if real_query[k] in line.lower() or lemmatizer.lemmatize(real_query[k]) in line.lower():
+                        text+=line
+                        text+='\n'
+                        text+="                              -----------------------------------"
+                        text+='\n'
+                        real_query.pop(k)
+                        counter1+=1
+                        if(counter1==2):
+                            flag=1
+                            break
+                if(flag==1):
+                    break
+            text+="\n\n"
+            #ans.append("(doc{}-{})\n".format(docs[i],result[i]))
+            ans.append(text)
+    
     ans.reverse()
     print(counter)
     print(ans)
-    ans = "Lenght = {}".format(counter)+'\n'+str(ans)
-    return ans
+    res = "Lenght = {}\n\n".format(counter)
+    for a in ans:
+        res+=a
+        res+="                        ************************************************************\n"
+    return res
 
 
 
