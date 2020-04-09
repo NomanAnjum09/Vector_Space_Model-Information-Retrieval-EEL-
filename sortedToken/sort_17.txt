@@ -141,7 +141,6 @@ call
 called
 campaign
 canal
-cant
 capability
 care
 cash
@@ -184,7 +183,7 @@ core
 corp
 cost
 could
-couldnt
+couldn
 count
 country
 cover
@@ -227,7 +226,7 @@ deter
 develop
 developing
 did
-didnt
+didn
 diplomacy
 directive
 disarray
@@ -338,7 +337,6 @@ germany
 get
 gimmick
 goal
-goalswe
 god
 got
 government
@@ -552,7 +550,6 @@ process
 procure
 produce
 produced
-producedlibya
 producing
 production
 program
@@ -706,6 +703,7 @@ surface
 sworn
 syria
 system
+t
 take
 taking
 talk
@@ -722,7 +720,6 @@ terrorism
 terrorist
 than
 that
-thats
 their
 them
 then
@@ -761,7 +758,6 @@ trigger
 trillion
 trimmed
 troop
-troopswhich
 true
 trump
 turmoil
@@ -796,7 +792,7 @@ warfare
 warfighting
 wash
 washington
-wasnt
+wasn
 waste
 waterway
 way
@@ -830,5 +826,4 @@ yesterday
 yet
 you
 young
-
 every

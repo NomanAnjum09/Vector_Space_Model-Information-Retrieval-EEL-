@@ -131,9 +131,9 @@ disaster
 disdain
 doe
 dollar
-donaldjtrump
+don
+donald
 done
-dont
 down
 dreaming
 each
@@ -281,7 +281,7 @@ market
 match
 matching
 maternity
-mcmorris
+mc
 mean
 meaningful
 member
@@ -320,6 +320,7 @@ only
 open
 opponent
 or
+orris
 other
 our
 ourselves
@@ -364,6 +365,7 @@ providing
 pursue
 put
 quality
+re
 reach
 read
 real
@@ -377,7 +379,6 @@ recognizes
 reduce
 reform
 reforming
-reformsi
 regulation
 regulatory
 reject
@@ -400,6 +401,7 @@ rodgers
 rollover
 rule
 rural
+s
 safe
 safety
 save
@@ -444,6 +446,7 @@ such
 sum
 support
 sure
+t
 take
 target
 tax
@@ -476,6 +479,7 @@ translates
 travelled
 treasury
 trillion
+trump
 trust
 try
 tv
@@ -513,7 +517,7 @@ will
 with
 within
 woman
-wont
+won
 word
 work
 worker
@@ -525,4 +529,3 @@ yet
 you
 young
 your
-

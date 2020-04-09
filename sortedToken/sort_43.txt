@@ -159,8 +159,8 @@ discus
 disgraceful
 distract
 dollar
+don
 donor
-dont
 door
 doubled
 down
@@ -169,6 +169,8 @@ drive
 drug
 due
 during
+each
+eaks
 earlier
 economic
 economy
@@ -374,7 +376,6 @@ only
 open
 opportunity
 option
-optionseach
 or
 other
 ounce
@@ -465,6 +466,7 @@ right
 rising
 room
 rule
+s
 safe
 same
 saving
@@ -479,7 +481,6 @@ service
 share
 sharing
 she
-shes
 shipped
 should
 show
@@ -516,6 +517,7 @@ subpoena
 subsidize
 support
 sure
+t
 take
 taken
 talk
@@ -526,7 +528,6 @@ tenured
 than
 thank
 that
-thats
 their
 them
 themselves
@@ -561,6 +562,7 @@ unnecessary
 upon
 use
 vanderbilt
+ve
 viciously
 victim
 victory
@@ -579,23 +581,21 @@ washington
 wealth
 weapon
 weight
-weve
 when
 where
 whether
 while
 who
-whove
 why
 wielded
-wikileaks
+wiki
 will
 win
 with
 without
 witness
 woman
-wont
+won
 work
 worker
 worried
@@ -606,4 +606,3 @@ york
 you
 young
 your
-

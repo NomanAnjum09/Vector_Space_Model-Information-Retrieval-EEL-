@@ -111,7 +111,6 @@ c
 call
 campaign
 cancel
-cant
 carolina
 cartel
 caught
@@ -206,9 +205,9 @@ doctor
 dodd
 doe
 dollar
+don
 done
 donor
-dont
 double
 doubter
 down
@@ -316,7 +315,7 @@ happened
 hard
 harder
 harmed
-hasnt
+hasn
 healthcare
 heard
 heartache
@@ -401,6 +400,7 @@ live
 loan
 lobbyist
 local
+lohon
 long
 look
 loop
@@ -421,7 +421,7 @@ march
 market
 massive
 mayor
-mcglohon
+mc
 me
 mean
 meaning
@@ -615,6 +615,7 @@ run
 rural
 russia
 russian
+s
 sacrificed
 safe
 safety
@@ -633,7 +634,6 @@ seek
 set
 seventy
 she
-shes
 ship
 shooting
 shore
@@ -672,6 +672,7 @@ suspending
 symbol
 syria
 system
+t
 take
 talk
 task
@@ -691,7 +692,6 @@ then
 there
 these
 they
-theyve
 thing
 thinking
 this
@@ -731,6 +731,7 @@ uprooted
 urban
 urged
 used
+ve
 very
 victim
 violate
@@ -763,11 +764,10 @@ when
 whether
 which
 who
-whove
 will
 with
 without
-wont
+won
 word
 work
 worked
@@ -783,4 +783,3 @@ you
 young
 your
 youth
-

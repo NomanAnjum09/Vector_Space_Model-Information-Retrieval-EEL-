@@ -17,6 +17,7 @@ $800
 34
 35%
 45
+5%
 50
 550%
 58%
@@ -51,7 +52,6 @@ amazing
 amendment
 america
 american
-americans45%
 amnesty
 an
 angler
@@ -105,7 +105,6 @@ c
 called
 cancel
 candidate
-cant
 car
 care
 carolina
@@ -144,7 +143,7 @@ convention
 conviction
 core
 corrupt
-corruptionhillary
+corruption
 cost
 could
 country
@@ -176,16 +175,16 @@ depression
 destroy
 destroyed
 devaluation
-didnt
+didn
 die
 different
 disaster
 disastrous
 disqualifying
-doesnt
+doesn
 dollar
+don
 donald
-dont
 doubled
 down
 duty
@@ -228,7 +227,7 @@ failure
 far
 fbi
 federal
-fiancé
+fianc
 fiat
 field
 fifth
@@ -262,10 +261,11 @@ greatest
 gun
 gutting
 hacking
-halfthe
+half
 hampshire
 handcuffing
-hasnt
+hasn
+he
 healthcare
 heller
 help
@@ -283,6 +283,7 @@ hunter
 i
 ice
 if
+illary
 illegal
 illinois
 im
@@ -310,6 +311,7 @@ into
 islamic
 issued
 it
+ith
 ive
 japan
 jersey
@@ -400,7 +402,6 @@ number
 oath
 obama
 obamacare
-obamas
 october
 offense
 office
@@ -462,6 +463,7 @@ quote
 radical
 rally
 rate
+re
 read
 reagan
 real
@@ -482,7 +484,6 @@ remark
 remember
 renegotiate
 reno
-renowith
 repeal
 replace
 replaced
@@ -491,7 +492,7 @@ resource
 rest
 restriction
 result
-revivalmy
+revival
 rich
 right
 righteous
@@ -504,8 +505,6 @@ running
 s
 safe
 said
-saidhe
-saidpeople
 sale
 saluting
 same
@@ -529,8 +528,6 @@ service
 seventy
 severe
 she
-shed
-shes
 shooter
 short
 shot
@@ -578,6 +575,7 @@ supreme
 surging
 syrian
 system
+t
 take
 taliban
 tax
@@ -588,14 +586,12 @@ terrorist
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyve
 thing
 third
 this
@@ -631,6 +627,7 @@ unnecessary
 unworthy
 uphold
 v
+ve
 verdict
 very
 vet
@@ -656,7 +653,6 @@ wealthy
 week
 welfare
 were
-weve
 what
 when
 where
@@ -679,15 +675,12 @@ world
 worse
 worst
 would
-wouldnt
+wouldn
+y
 year
 yet
 york
 you
 your
-youre
 yourselves
 youth
-youve
-
-make

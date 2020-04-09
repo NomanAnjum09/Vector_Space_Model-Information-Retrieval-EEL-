@@ -98,7 +98,6 @@ by
 came
 camp
 cannot
-cant
 capability
 capital
 catastrophe
@@ -155,7 +154,7 @@ destabilize
 destroyed
 detail
 did
-didnt
+didn
 different
 difficult
 diplomatic
@@ -164,12 +163,12 @@ disastrous
 discussion
 dismantle
 doe
-doesnt
+doesn
 dollar
 dominate
+don
 donald
 done
-dont
 down
 during
 each
@@ -308,7 +307,6 @@ israel
 israeli
 issue
 it
-itll
 itself
 ivanka
 ive
@@ -341,6 +339,7 @@ limit
 literally
 little
 live
+ll
 long
 longer
 love
@@ -466,6 +465,7 @@ push
 rampant
 random
 range
+re
 reach
 ready
 really
@@ -494,6 +494,7 @@ rocket
 room
 rudy
 running
+s
 salute
 saudi
 saw
@@ -562,6 +563,7 @@ swirling
 syria
 syrian
 system
+t
 table
 take
 taken
@@ -581,7 +583,6 @@ textbook
 than
 thank
 that
-thats
 their
 them
 themselves
@@ -589,9 +590,6 @@ then
 there
 these
 they
-theyll
-theyre
-theyve
 thing
 think
 third
@@ -630,6 +628,7 @@ use
 useful
 utter
 value
+ve
 very
 veto
 vetoed
@@ -644,13 +643,10 @@ way
 weakness
 weapon
 week
-well
 were
 west
 western
-weve
 what
-whats
 when
 where
 whereas
@@ -679,5 +675,4 @@ yes
 york
 you
 young
-youve
 zero

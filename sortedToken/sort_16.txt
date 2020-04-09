@@ -86,7 +86,7 @@ bill
 bishop
 bitter
 bleach
-bleachbit
+bless
 board
 border
 break
@@ -99,7 +99,6 @@ but
 by
 c
 called
-cant
 carolina
 cartel
 cashed
@@ -141,7 +140,7 @@ corporation
 corrupt
 corruption
 could
-couldnt
+couldn
 country
 cover
 covered
@@ -176,7 +175,7 @@ deterrent
 detroit
 develop
 did
-didnt
+didn
 difference
 different
 dignity
@@ -187,11 +186,11 @@ displacing
 disqualifying
 document
 doe
-doesnt
+doesn
 dole
+don
 donald
 donor
-dont
 drone
 drug
 duty
@@ -266,12 +265,12 @@ general
 get
 give
 global
+go
 goal
 god
 going
 gold
 gone
-gothis
 government
 granted
 great
@@ -328,7 +327,6 @@ instruction
 intelligence
 intention
 interest
-intereststhis
 international
 into
 invade
@@ -621,6 +619,7 @@ sweat
 syria
 syrian
 system
+t
 take
 taught
 tax
@@ -631,7 +630,6 @@ terrorist
 than
 thank
 that
-thats
 theft
 their
 them
@@ -697,7 +695,6 @@ wayne
 wednesday
 weekend
 well
-were
 what
 whatever
 where
@@ -723,4 +720,3 @@ you
 your
 youth
 zone
-

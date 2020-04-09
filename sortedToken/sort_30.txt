@@ -74,6 +74,7 @@ biggest
 bill
 billion
 bitter
+bless
 blighted
 block
 blue
@@ -94,7 +95,6 @@ c
 call
 campaign
 cannot
-cant
 car
 carry
 center
@@ -139,7 +139,7 @@ corporation
 corrupt
 cost
 could
-couldnt
+couldn
 country
 court
 cycle
@@ -168,14 +168,14 @@ disrupt
 disruptor
 doctor
 doe
-doesnt
+doesn
 doing
 dollar
-donaldjtrump
+don
+donald
 donating
 donation
 donor
-dont
 door
 doubter
 dream
@@ -188,7 +188,6 @@ easier
 economic
 education
 effort
-el
 eldercare
 eliminate
 else
@@ -227,7 +226,6 @@ failed
 failing
 failure
 faith
-familieshillary
 family
 federal
 feel
@@ -513,6 +511,7 @@ rally
 rasmussen
 rate
 ravaged
+re
 reason
 rebuild
 red
@@ -552,6 +551,7 @@ rundown
 running
 rural
 rushing
+s
 safe
 safely
 safer
@@ -642,6 +642,7 @@ supported
 supreme
 sure
 system
+t
 takeover
 talent
 talk
@@ -658,15 +659,12 @@ than
 thank
 thanks
 that
-thats
 their
 them
-themfor
 then
 there
 these
 they
-theyre
 thing
 thinking
 third
@@ -714,6 +712,7 @@ use
 used
 using
 value
+ve
 verdict
 very
 victim
@@ -741,7 +740,6 @@ website
 week
 well
 were
-weve
 what
 where
 while
@@ -769,4 +767,3 @@ you
 young
 your
 youth
-

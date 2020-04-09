@@ -158,9 +158,9 @@ dirt
 disappear
 disaster
 dollar
+don
 done
 donor
-dont
 down
 dramatically
 dream
@@ -248,7 +248,7 @@ hillary
 history
 home
 hope
-horrorsas
+horror
 hospital
 house
 i
@@ -301,6 +301,7 @@ lift
 like
 live
 living
+ll
 local
 look
 lose
@@ -416,6 +417,7 @@ raise
 rally
 raping
 rapist
+re
 reagan
 real
 rebuild
@@ -447,6 +449,7 @@ road
 roll
 ronald
 running
+s
 sachs
 safe
 said
@@ -500,6 +503,7 @@ supposedly
 supreme
 sure
 surging
+t
 take
 talking
 tarmac
@@ -511,7 +515,6 @@ texas
 than
 thank
 that
-thats
 theft
 their
 them
@@ -546,6 +549,7 @@ unlimited
 unnecessary
 uphold
 use
+ve
 verdict
 very
 vet
@@ -562,9 +566,7 @@ washington
 way
 wealthy
 welfare
-well
 went
-were
 what
 when
 white
@@ -576,20 +578,17 @@ with
 within
 without
 woman
-wont
+won
 word
 work
 worker
 working
 world
 worst
-wouldnt
+wouldn
 year
 yes
 you
 young
 your
-youre
 youth
-youve
-

@@ -73,6 +73,7 @@ bill
 billion
 bitter
 bleached
+bless
 boost
 bottom
 break
@@ -127,7 +128,7 @@ corn
 corrupt
 cost
 could
-couldnt
+couldn
 country
 court
 create
@@ -159,8 +160,8 @@ disastrous
 displayed
 doing
 dollar
+don
 donald
-dont
 double
 doubled
 down
@@ -267,6 +268,7 @@ hired
 hispanic
 home
 homicide
+hone
 hope
 horrible
 hospital
@@ -305,7 +307,6 @@ into
 intrusion
 involves
 iowa
-iphones
 iraq
 irredeemable
 isi
@@ -393,7 +394,6 @@ obamacare
 obligation
 offer
 office
-officefrom
 old
 one
 only
@@ -448,6 +448,7 @@ quote
 radical
 rapidly
 rate
+re
 reach
 real
 rebuild
@@ -559,6 +560,7 @@ supreme
 sure
 syria
 syrian
+t
 tackle
 take
 taking
@@ -571,14 +573,12 @@ terrorism
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyre
 thing
 this
 those
@@ -607,6 +607,7 @@ united
 unleashing
 unnecessary
 unsolved
+ve
 vet
 veteran
 victim
@@ -629,7 +630,6 @@ watergate
 way
 welder
 were
-weve
 what
 when
 whether
@@ -653,4 +653,3 @@ young
 your
 youth
 zone
-

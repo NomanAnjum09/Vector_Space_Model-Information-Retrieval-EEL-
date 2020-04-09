@@ -77,7 +77,6 @@ another
 answer
 any
 anybody
-anybodys
 anymore
 anyone
 anything
@@ -86,7 +85,7 @@ apartment
 applause
 arabia
 area
-arent
+aren
 around
 arsenal
 art
@@ -101,7 +100,6 @@ authority
 avenue
 away
 back
-backyeah
 bad
 bank
 barron
@@ -138,7 +136,6 @@ block
 blown
 boat
 boeing
-boeings
 border
 borrowing
 boy
@@ -172,7 +169,6 @@ campaign
 candidacy
 candidate
 cannot
-cant
 caput
 car
 card
@@ -190,7 +186,6 @@ charity
 cheerleader
 chevrolet
 china
-chinano
 choice
 chunk
 circuit
@@ -223,7 +218,7 @@ core
 corrupt
 cost
 could
-couldnt
+couldn
 country
 couple
 course
@@ -252,7 +247,7 @@ destructive
 devalue
 devaluing
 did
-didnt
+didn
 difference
 different
 disassociate
@@ -261,7 +256,7 @@ disastrous
 dislike
 doctor
 doe
-doesnt
+doesn
 dog
 doing
 dollar
@@ -271,7 +266,6 @@ donald
 done
 donnie
 donor
-dont
 down
 drain
 dream
@@ -287,7 +281,6 @@ eating
 economically
 economist
 education
-el
 elected
 election
 else
@@ -392,7 +385,6 @@ gun
 guy
 hack
 happen
-happenafter
 happened
 happening
 happens
@@ -403,7 +395,6 @@ head
 headquarters
 hear
 heard
-hed
 hell
 help
 here
@@ -442,7 +433,7 @@ incredible
 inexpensively
 infrastructure
 instead
-intelligentthen
+intelligent
 interest
 interested
 interesting
@@ -456,8 +447,6 @@ islamic
 island
 israel
 it
-iti
-itll
 ive
 japan
 jared
@@ -509,6 +498,7 @@ like
 listening
 literally
 little
+ll
 loaded
 loan
 lobbyist
@@ -523,7 +513,7 @@ lost
 lot
 love
 low
-macarthur
+mac
 made
 main
 make
@@ -598,7 +588,6 @@ number
 nurse
 obama
 obamacare
-obamas
 obligation
 obsolete
 ocean
@@ -667,7 +656,6 @@ prison
 private
 probably
 problem
-problemhe
 produce
 product
 program
@@ -693,6 +681,7 @@ race
 ran
 rapist
 rate
+re
 read
 ready
 real
@@ -729,6 +718,7 @@ road
 roadway
 roof
 room
+rthur
 rubio
 run
 running
@@ -766,7 +756,6 @@ ship
 shocked
 shooting
 should
-shouldve
 side
 sign
 signal
@@ -837,6 +826,7 @@ surplus
 sustain
 sweated
 syria
+t
 table
 take
 taken
@@ -863,7 +853,6 @@ than
 thank
 thanks
 that
-thats
 their
 them
 themselves
@@ -872,16 +861,11 @@ there
 therefore
 these
 they
-theyd
-theyll
-theyre
-theyve
 thing
 think
 thinking
 third
 this
-thishe
 those
 thought
 thousand
@@ -939,6 +923,7 @@ using
 valuable
 vanessa
 various
+ve
 vehicle
 ventured
 very
@@ -955,7 +940,7 @@ want
 wanted
 war
 washington
-wasnt
+wasn
 waste
 watch
 watched
@@ -965,16 +950,13 @@ weaker
 wealth
 weapon
 web
-wed
 week
 well
 went
 were
 west
-weve
 what
 whatever
-whats
 when
 whenever
 where
@@ -989,8 +971,8 @@ with
 within
 without
 woman
+won
 wonderful
-wont
 word
 work
 worked
@@ -1000,8 +982,7 @@ worse
 worst
 worth
 would
-wouldnt
-wouldve
+wouldn
 wounded
 wow
 wrong
@@ -1014,10 +995,7 @@ yesterday
 yet
 york
 you
-youi
 young
 your
-youre
 yourself
-youve
 zero

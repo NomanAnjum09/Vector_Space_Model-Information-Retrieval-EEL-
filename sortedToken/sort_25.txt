@@ -51,7 +51,7 @@ anywhere
 apple
 appoint
 approved
-arent
+aren
 around
 arrogance
 arrogant
@@ -70,6 +70,7 @@ bill
 billion
 bitter
 black
+bless
 bloomberg
 box
 break
@@ -87,7 +88,6 @@ called
 campaign
 campaigning
 cancelled
-cant
 canton
 car
 care
@@ -123,7 +123,7 @@ core
 corrupt
 cost
 could
-couldnt
+couldn
 country
 course
 court
@@ -156,8 +156,8 @@ disdain
 display
 disrespect
 dollar
+don
 done
-dont
 doubled
 down
 dream
@@ -248,6 +248,7 @@ hillary
 hired
 historic
 home
+hone
 hope
 horrible
 hospital
@@ -272,7 +273,6 @@ insider
 instead
 interest
 into
-iphones
 iraq
 irredeemable
 issued
@@ -305,6 +305,7 @@ life
 lift
 like
 living
+ll
 long
 look
 looked
@@ -415,6 +416,7 @@ quality
 raising
 rally
 ran
+re
 reach
 ready
 rebuild
@@ -443,6 +445,7 @@ running
 rushing
 russia
 russian
+s
 safe
 safety
 sale
@@ -490,6 +493,7 @@ support
 supporting
 supreme
 syria
+t
 take
 taking
 tax
@@ -497,15 +501,13 @@ term
 than
 thank
 that
-thats
 their
 them
 themselves
 then
 there
 these
-theyre
-theyve
+they
 thing
 this
 threat
@@ -531,6 +533,7 @@ unnecessary
 until
 uranium
 used
+ve
 vehicle
 versus
 vet
@@ -560,7 +563,7 @@ who
 will
 willing
 with
-wont
+won
 word
 worker
 working
@@ -573,7 +576,5 @@ year
 yes
 yesterday
 you
-youll
 young
 your
-

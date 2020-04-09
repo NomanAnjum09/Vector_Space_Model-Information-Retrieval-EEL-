@@ -36,7 +36,6 @@ belief
 believed
 belmont
 ben
-benand
 benefit
 best
 better
@@ -60,7 +59,6 @@ called
 calling
 came
 campaign
-cant
 care
 carson
 certain
@@ -218,6 +216,7 @@ let
 leverage
 life
 like
+ll
 long
 longer
 look
@@ -290,6 +289,7 @@ put
 putting
 race
 rather
+re
 reach
 reaching
 read
@@ -313,6 +313,7 @@ respected
 right
 robert
 rudy
+s
 said
 same
 sarah
@@ -355,6 +356,7 @@ successful
 such
 superstar
 support
+t
 take
 talent
 talented
@@ -364,15 +366,12 @@ than
 thank
 thanks
 that
-thats
 their
 them
 themselves
 there
 these
 they
-theyre
-theyve
 thing
 this
 those
@@ -401,6 +400,7 @@ untapped
 upon
 urgent
 vanessa
+ve
 very
 veteran
 victory
@@ -408,14 +408,13 @@ wa
 waiting
 want
 washington
-wasnt
+wasn
 way
 well
 went
 were
 what
 where
-wheres
 which
 while
 who
@@ -435,6 +434,4 @@ wound
 year
 york
 you
-youll
 your
-youve

@@ -75,6 +75,7 @@ bill
 bitter
 blame
 bleached
+bless
 board
 border
 break
@@ -101,7 +102,6 @@ child
 choice
 chosen
 citizen
-citizenshow
 city
 clarke
 class
@@ -165,11 +165,11 @@ disrupt
 doe
 doing
 dollar
+don
 donald
 donating
 done
 donor
-dont
 door
 down
 dream
@@ -299,7 +299,7 @@ iowa
 iran
 iraq
 irredeemable
-irredeemablesby
+irredeemables
 isi
 islamic
 it
@@ -329,6 +329,7 @@ lifted
 like
 live
 living
+ll
 lobbied
 lobbying
 look
@@ -435,6 +436,7 @@ racist
 radical
 rally
 rate
+re
 reason
 rebuild
 received
@@ -465,6 +467,7 @@ rose
 run
 running
 russia
+s
 safe
 safety
 said
@@ -484,10 +487,7 @@ service
 several
 share
 she
-shed
-shell
 sheriff
-shes
 ship
 shooting
 shot
@@ -547,6 +547,7 @@ suppressing
 supreme
 syria
 system
+t
 taking
 talk
 tax
@@ -556,14 +557,12 @@ terrorist
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyre
 thing
 think
 this
@@ -653,4 +652,3 @@ you
 young
 your
 youth
-

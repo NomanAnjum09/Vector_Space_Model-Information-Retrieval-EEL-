@@ -32,6 +32,7 @@ $873
 45
 49%
 5
+5%
 50
 50%
 550%
@@ -88,7 +89,7 @@ apply
 appoint
 arabia
 architect
-arent
+aren
 arizona
 around
 arrest
@@ -148,7 +149,6 @@ c
 california
 called
 campaign
-cant
 car
 care
 carried
@@ -171,7 +171,6 @@ childcare
 china
 choice
 chrysler
-cities45%
 citizen
 city
 class
@@ -204,10 +203,9 @@ core
 corrupt
 corrupted
 corruption
-corruptionhillary
 cost
 could
-couldnt
+couldn
 countless
 country
 county
@@ -245,7 +243,7 @@ destroyed
 destruction
 devaluation
 did
-didnt
+didn
 die
 died
 different
@@ -254,11 +252,11 @@ disastrous
 discover
 divided
 doctor
-doesnt
+doesn
 dollar
+don
 donald
 donor
-dont
 doubled
 down
 dream
@@ -274,7 +272,6 @@ empowered
 end
 endorsement
 energy
-energyi
 enforce
 enforcement
 entered
@@ -304,7 +301,7 @@ family
 far
 fbi
 federal
-fiancé
+fianc
 fiat
 field
 fifth
@@ -353,9 +350,8 @@ gun
 gunned
 hacking
 half
-halfthe
 hammer
-hasnt
+hasn
 he
 healthcare
 heartbreaking
@@ -367,9 +363,11 @@ higher
 highest
 highly
 hillary
+hina
 history
 home
 homicide
+hone
 hope
 horribly
 hour
@@ -381,6 +379,7 @@ i
 ice
 idea
 if
+illary
 illegal
 imagine
 immediately
@@ -405,11 +404,10 @@ instead
 insurance
 into
 investigation
-iphones
 iran
 iraq
 isi
-isnt
+isn
 it
 ive
 jail
@@ -457,7 +455,6 @@ live
 loaded
 look
 lose
-losewe
 loss
 lost
 made
@@ -519,7 +516,6 @@ number
 oath
 obama
 obamacare
-obamas
 objection
 occasion
 october
@@ -597,6 +593,7 @@ quickly
 race
 rally
 rate
+re
 reach
 reagan
 real
@@ -627,7 +624,7 @@ rest
 restriction
 revitalize
 revitalized
-revivalchina
+revival
 rich
 rigged
 right
@@ -646,8 +643,6 @@ s
 saddest
 safe
 said
-saidhe
-saidpeople
 sale
 saluting
 same
@@ -678,7 +673,6 @@ share
 shaw
 she
 sheriff
-shes
 shooter
 shot
 shut
@@ -727,6 +721,7 @@ surrendered
 syria
 syrian
 system
+t
 take
 taken
 taliban
@@ -741,14 +736,12 @@ terrorist
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyve
 thing
 third
 this
@@ -791,6 +784,7 @@ uphold
 upstate
 used
 valley
+ve
 versus
 very
 vet
@@ -821,7 +815,6 @@ week
 welfare
 well
 were
-weve
 what
 when
 where
@@ -851,10 +844,5 @@ yesterday
 york
 you
 your
-youre
 yourselves
 youth
-youve
-
-and
-make

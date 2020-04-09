@@ -69,7 +69,6 @@ call
 called
 campaign
 cannot
-cant
 carpenter
 cause
 center
@@ -138,11 +137,11 @@ disdain
 displayed
 disqualifies
 divide
-doesnt
+doesn
 dollar
+don
 done
 donor
-dont
 doubled
 down
 drive
@@ -222,7 +221,7 @@ ground
 guard
 hardworking
 hargett
-hasnt
+hasn
 hatred
 hear
 heart
@@ -301,6 +300,7 @@ light
 limb
 line
 living
+ll
 longer
 look
 loses
@@ -432,6 +432,7 @@ rule
 run
 running
 rushed
+s
 sacrificed
 safe
 safety
@@ -455,7 +456,6 @@ serve
 service
 sexist
 she
-shes
 shocked
 shrinking
 sight
@@ -486,6 +486,7 @@ support
 supported
 supporting
 syria
+t
 take
 tax
 ten
@@ -501,7 +502,6 @@ then
 there
 these
 they
-theyve
 this
 those
 though
@@ -534,6 +534,7 @@ uphold
 used
 using
 value
+ve
 very
 viciously
 victory
@@ -568,8 +569,8 @@ why
 will
 with
 woman
+won
 wonderful
-wont
 word
 work
 worker
@@ -580,8 +581,6 @@ xenophobic
 yesterday
 york
 you
-youll
 young
 your
 zero
-

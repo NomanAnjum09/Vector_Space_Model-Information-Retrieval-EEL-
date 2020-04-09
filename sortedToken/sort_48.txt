@@ -45,6 +45,7 @@ agreed
 agriculture
 al
 also
+alternateladies
 amazing
 amendment
 america
@@ -177,10 +178,10 @@ did
 disaster
 disrupt
 dollar
+don
 donald
 donna
 donor
-dont
 down
 dozen
 drain
@@ -189,6 +190,7 @@ dreamed
 driver
 drug
 during
+eaks
 early
 earning
 east
@@ -238,7 +240,7 @@ fix
 fixing
 flag
 follow
-followinga
+following
 food
 ford
 foreign
@@ -293,7 +295,7 @@ immigration
 important
 impose
 inaccurate
-inappropriateyears
+inappropriate
 incite
 include
 includes
@@ -310,7 +312,7 @@ involved
 iraqi
 isi
 islamic
-isnt
+isn
 issue
 it
 job
@@ -342,6 +344,7 @@ lifetime
 like
 limit
 living
+ll
 lobbying
 lobbyist
 located
@@ -458,6 +461,7 @@ radicalism
 raised
 raising
 rally
+re
 reach
 reagan
 real
@@ -517,7 +521,7 @@ shipped
 shore
 shot
 should
-shouldnt
+shouldn
 show
 significantly
 simple
@@ -554,6 +558,7 @@ sure
 surging
 swamp
 system
+t
 take
 taking
 tax
@@ -601,6 +606,7 @@ unprecedented
 uphold
 used
 v
+ve
 vet
 vigilant
 violates
@@ -617,7 +623,6 @@ washington
 way
 wealthy
 week
-well
 were
 what
 when
@@ -628,16 +633,14 @@ who
 whom
 whose
 why
-wikileaks
+wiki
 will
 win
-winalternateladies
 with
 within
 without
 woman
 won
-wont
 word
 worker
 working
@@ -649,7 +652,3 @@ year
 yes
 you
 your
-youre
-youve
-
-we

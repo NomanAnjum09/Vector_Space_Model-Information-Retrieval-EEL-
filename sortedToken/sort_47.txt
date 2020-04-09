@@ -99,7 +99,6 @@ called
 came
 campaign
 cannot
-cant
 care
 carolina
 cartel
@@ -138,7 +137,7 @@ core
 corrupt
 corruption
 could
-couldnt
+couldn
 country
 court
 cover
@@ -184,12 +183,13 @@ dream
 dreamed
 drug
 dweller
+eaks
 early
 easily
 east
 economic
 economy
-eightvoter
+eight
 either
 elected
 election
@@ -303,6 +303,7 @@ irredeemable
 islamic
 issue
 it
+ither
 job
 john
 johnson
@@ -365,7 +366,6 @@ mexico
 middle
 military
 million
-millionone
 milwaukee
 mind
 missing
@@ -396,7 +396,6 @@ november
 oath
 obama
 obamacare
-obamas
 office
 officer
 official
@@ -476,7 +475,6 @@ recovery
 reduce
 reform
 refugee
-refugeeseither
 registered
 registration
 regulation
@@ -578,6 +576,7 @@ surging
 swamp
 syrian
 system
+t
 take
 tax
 tended
@@ -633,6 +632,7 @@ uphold
 use
 valid
 validity
+ve
 vehicle
 verdict
 vet
@@ -660,7 +660,7 @@ white
 who
 whose
 why
-wikileaks
+wiki
 will
 win
 wisconsin
@@ -669,7 +669,6 @@ within
 witnessing
 woman
 won
-wont
 word
 work
 worker
@@ -678,12 +677,9 @@ world
 worse
 worst
 would
-wouldnt
+wouldn
 written
 year
 yes
 you
 your
-youre
-youve
-

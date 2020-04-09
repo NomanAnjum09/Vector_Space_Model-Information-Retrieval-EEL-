@@ -40,7 +40,7 @@ back
 background
 barnett
 based
-basicsi
+basic
 basis
 because
 becoming
@@ -306,6 +306,7 @@ put
 quality
 race
 radical
+re
 real
 rebuild
 recite
@@ -325,6 +326,7 @@ return
 review
 revolution
 right
+s
 safe
 sailor
 sale
@@ -425,7 +427,6 @@ waste
 way
 wealth
 website
-were
 what
 whatever
 when
@@ -448,4 +449,3 @@ you
 young
 your
 zone
-

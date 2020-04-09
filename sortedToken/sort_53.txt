@@ -92,6 +92,7 @@ doing
 done
 donor
 drain
+eaks
 email
 employee
 end
@@ -103,7 +104,7 @@ even
 event
 ever
 every
-everybodys
+everybody
 evidence
 exceptional
 fairground
@@ -258,6 +259,7 @@ right
 risk
 rule
 run
+s
 safety
 said
 sale
@@ -275,7 +277,6 @@ seen
 server
 set
 she
-shed
 shielding
 should
 shred
@@ -299,7 +300,6 @@ take
 taking
 tarmac
 that
-thats
 their
 them
 then
@@ -325,6 +325,7 @@ under
 unhinged
 unplugged
 use
+ve
 very
 vote
 voter
@@ -335,13 +336,12 @@ washington
 watergate
 well
 went
-weve
 what
 when
 where
 who
 why
-wikileaks
+wiki
 will
 willful
 win
@@ -351,4 +351,3 @@ world
 yesterday
 you
 your
-

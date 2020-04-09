@@ -120,7 +120,7 @@ contract
 core
 corruption
 could
-couldnt
+couldn
 country
 county
 court
@@ -159,14 +159,15 @@ disadvantaged
 disappear
 disaster
 dollar
+don
 donor
-dont
 door
 doubled
 down
 drain
 dramatically
 drug
+eaks
 earl
 earlier
 early
@@ -277,6 +278,7 @@ humiliation
 i
 ice
 if
+ill
 illegal
 im
 imagine
@@ -347,7 +349,7 @@ looking
 lost
 loving
 lowering
-macdill
+mac
 made
 make
 making
@@ -494,6 +496,7 @@ ronald
 run
 rural
 russia
+s
 safe
 safety
 sale
@@ -515,7 +518,6 @@ sentence
 sequester
 serve
 she
-shes
 ship
 shooter
 shooting
@@ -561,6 +563,7 @@ swamp
 swiftly
 syria
 system
+t
 take
 tampa
 tax
@@ -605,6 +608,7 @@ unnecessary
 upgrade
 uphold
 urban
+ve
 venezuela
 very
 viciously
@@ -628,9 +632,7 @@ wave
 way
 wealth
 wealthy
-were
 west
-weve
 what
 whatever
 when
@@ -639,8 +641,8 @@ while
 white
 who
 whole
-wikileaks
-wilkersons
+wiki
+wilkerson
 will
 win
 wind
@@ -659,6 +661,3 @@ yesterday
 yet
 you
 your
-youre
-youve
-

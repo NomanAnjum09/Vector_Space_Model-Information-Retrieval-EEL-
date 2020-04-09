@@ -108,7 +108,7 @@ border
 bought
 boy
 break
-brexits
+brexit
 bring
 budget
 build
@@ -123,7 +123,6 @@ call
 campaign
 campaigned
 candidate
-cant
 care
 cared
 case
@@ -188,7 +187,7 @@ destroy
 destroyed
 destroying
 did
-didnt
+didn
 difference
 different
 difficulty
@@ -200,14 +199,13 @@ displayed
 distinction
 doctor
 doe
-doesnt
+doesn
 doing
 dollar
 dominated
 don
 donald
 done
-dont
 down
 drained
 duke
@@ -316,7 +314,7 @@ happened
 happening
 happens
 hard
-hasnt
+hasn
 having
 he
 hear
@@ -342,7 +340,6 @@ hospital
 hostage
 house
 how
-hows
 i
 id
 idea
@@ -376,9 +373,8 @@ iraq
 isi
 islam
 islamic
-isnt
+isn
 it
-itll
 itself
 ivanka
 ive
@@ -420,6 +416,7 @@ like
 line
 little
 live
+ll
 lobbyist
 location
 look
@@ -529,7 +526,6 @@ path
 pay
 paying
 peanut
-pences
 pennsylvania
 penny
 people
@@ -576,6 +572,7 @@ ran
 ranked
 rate
 rated
+re
 reagan
 really
 reason
@@ -611,6 +608,7 @@ ronald
 roof
 rose
 running
+s
 safe
 said
 san
@@ -634,8 +632,6 @@ server
 service
 seventy
 she
-shell
-shes
 short
 should
 show
@@ -688,6 +684,7 @@ surprised
 synagogue
 syria
 system
+t
 take
 taken
 talented
@@ -705,15 +702,12 @@ texas
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyre
-theyve
 thing
 think
 thinking
@@ -763,6 +757,7 @@ unusual
 unyielding
 upset
 v
+ve
 very
 veteran
 vice
@@ -775,18 +770,16 @@ wall
 want
 wanted
 war
-wasnt
+wasn
 way
 weak
 weapon
 well
 went
 were
-weve
 whack
 what
 whatever
-whats
 when
 where
 whether
@@ -809,7 +802,6 @@ without
 witnessed
 won
 wonderful
-wont
 word
 work
 worked
@@ -825,7 +817,4 @@ york
 you
 young
 your
-youre
-youve
-
  

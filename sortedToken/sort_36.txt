@@ -41,7 +41,6 @@ across
 actively
 actually
 administration
-administrationand
 adoption
 affordable
 african
@@ -95,6 +94,7 @@ biggest
 bill
 bleached
 bleeding
+bless
 boardroom
 border
 both
@@ -110,7 +110,6 @@ called
 calling
 campaign
 campaigned
-cant
 car
 carolina
 cast
@@ -153,9 +152,8 @@ corrupt
 corruption
 cost
 could
-couldnt
+couldn
 country
-countrywe
 county
 court
 crime
@@ -187,15 +185,15 @@ disaster
 disastrous
 disrupt
 doe
-doesnt
+doesn
 dollar
+don
 donald
 donated
 donating
 donation
 done
 donor
-dont
 down
 dream
 dreamed
@@ -289,7 +287,6 @@ hampshire
 hand
 happen
 happening
-happenthe
 hard
 hardworking
 hedge
@@ -333,7 +330,7 @@ irredeemable
 islamic
 issue
 it
-itselfno
+itself
 ive
 job
 just
@@ -360,6 +357,7 @@ lifting
 like
 lincoln
 living
+ll
 lobbied
 lobbying
 lobbyist
@@ -378,7 +376,7 @@ manufacturing
 many
 marc
 matter
-mcauliffe
+mc
 me
 mean
 medium
@@ -395,7 +393,6 @@ mined
 missile
 missing
 money
-moneythe
 monopoly
 more
 most
@@ -494,6 +491,7 @@ raised
 raking
 rammed
 rank
+re
 reagan
 reason
 rebuild
@@ -547,9 +545,6 @@ server
 several
 share
 she
-shed
-shell
-shes
 ship
 show
 showplace
@@ -604,6 +599,7 @@ supported
 supreme
 surrender
 system
+t
 take
 taking
 talk
@@ -617,14 +613,12 @@ terry
 than
 thank
 that
-thats
 theft
 their
 them
 there
 these
 they
-theyre
 thing
 think
 this
@@ -654,6 +648,7 @@ twenty
 twin
 two
 u
+uliffe
 under
 undisclosed
 united
@@ -664,6 +659,7 @@ until
 uphold
 upon
 used
+ve
 verdict
 very
 vessel
@@ -685,7 +681,6 @@ website
 week
 went
 were
-weve
 what
 whatever
 when
@@ -717,6 +712,3 @@ year
 you
 young
 your
-youre
-
-we

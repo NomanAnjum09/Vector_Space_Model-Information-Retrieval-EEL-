@@ -67,6 +67,7 @@ bigger
 bill
 bitter
 bleached
+bless
 bluff
 board
 bold
@@ -87,7 +88,6 @@ call
 called
 calling
 campaign
-cant
 car
 career
 catch
@@ -157,11 +157,11 @@ distraction
 doe
 doing
 dollar
+don
 donald
 donating
 done
 donor
-dont
 door
 down
 dream
@@ -246,7 +246,6 @@ hack
 hammer
 hand
 happen
-happenwhy
 hardworking
 harvested
 he
@@ -320,6 +319,7 @@ lift
 lifted
 like
 living
+ll
 lobbied
 lobbying
 lobbyist
@@ -382,7 +382,6 @@ our
 out
 outline
 outsider
-out
 oval
 over
 park
@@ -424,6 +423,7 @@ quote
 radical
 rally
 rare
+re
 real
 reason
 rebuild
@@ -458,6 +458,7 @@ root
 rose
 running
 russia
+s
 safe
 safety
 said
@@ -466,7 +467,6 @@ saluting
 same
 sanctuary
 sarah
-sarahthe
 save
 say
 scandal
@@ -485,9 +485,6 @@ server
 service
 several
 she
-shed
-shell
-shes
 ship
 shot
 show
@@ -523,7 +520,7 @@ state
 statistic
 status
 steel
-steelworkersthe
+steelworker
 storefront
 street
 stretch
@@ -538,6 +535,7 @@ supreme
 syria
 syrian
 system
+t
 take
 taking
 talent
@@ -549,13 +547,11 @@ terry
 than
 thank
 that
-thats
 their
 them
 there
 these
 they
-theyre
 thing
 think
 this
@@ -640,5 +636,4 @@ york
 you
 young
 your
-
 

@@ -185,8 +185,8 @@ dismantling
 doctor
 document
 dollar
+don
 donor
-dont
 door
 doubling
 down
@@ -195,6 +195,7 @@ dream
 dreamed
 drug
 each
+eaks
 early
 economic
 effective
@@ -235,7 +236,7 @@ fda
 federal
 fentanyl
 few
-fiatchrysler
+fiat
 fight
 finally
 first
@@ -286,6 +287,7 @@ honor
 hope
 house
 how
+hrysler
 humane
 i
 ice
@@ -338,6 +340,7 @@ like
 limiting
 listening
 living
+ll
 local
 long
 look
@@ -482,6 +485,7 @@ raided
 raise
 rally
 rate
+re
 read
 reagan
 real
@@ -589,6 +593,7 @@ surging
 swiftly
 sylvania
 system
+t
 take
 taken
 talking
@@ -599,7 +604,6 @@ terrible
 than
 thank
 that
-thats
 theft
 their
 them
@@ -644,6 +648,7 @@ uphold
 use
 user
 va
+ve
 verdict
 vet
 veteran
@@ -664,7 +669,6 @@ wealth
 wealthy
 well
 went
-were
 what
 when
 which
@@ -672,13 +676,12 @@ while
 white
 who
 why
-wikileaks
+wiki
 will
 win
 with
 within
 won
-wont
 work
 working
 world
@@ -690,7 +693,4 @@ yes
 you
 young
 your
-youre
 youth
-youve
-

@@ -101,7 +101,6 @@ by
 campaign
 candidate
 cannot
-cant
 capability
 care
 career
@@ -163,6 +162,7 @@ currency
 cut
 cycle
 czech
+d
 day
 deal
 dear
@@ -200,13 +200,12 @@ disadvantaged
 disorder
 diverse
 divisive
-doesnt
+doesn
 dollar
+don
 donald
-donaldjtrump
 donation
 donor
-dont
 down
 drug
 duty
@@ -312,7 +311,7 @@ handle
 happening
 happy
 hard
-havent
+haven
 having
 healthcare
 heart
@@ -361,7 +360,7 @@ iraq
 isi
 islam
 islamic
-isnt
+isn
 issue
 it
 ive
@@ -454,7 +453,6 @@ now
 nuclear
 oath
 obama
-obamas
 off
 old
 one
@@ -613,7 +611,6 @@ series
 set
 share
 she
-shes
 ship
 short
 show
@@ -656,6 +653,7 @@ swiftly
 syria
 system
 systemic
+t
 take
 taking
 talk
@@ -679,7 +677,6 @@ there
 therefore
 these
 they
-theyve
 thing
 third
 thirteen
@@ -729,6 +726,7 @@ uranium
 using
 vain
 value
+ve
 venezuela
 very
 veteran
@@ -750,12 +748,10 @@ way
 weakness
 weapon
 website
-wed
 week
 went
 were
 west
-weve
 what
 when
 where
@@ -763,7 +759,6 @@ which
 while
 who
 whole
-whove
 why
 wide
 will
@@ -772,7 +767,7 @@ with
 within
 without
 woman
-wont
+won
 word
 work
 worked
@@ -788,6 +783,3 @@ yet
 you
 young
 your
-youve
-
-while

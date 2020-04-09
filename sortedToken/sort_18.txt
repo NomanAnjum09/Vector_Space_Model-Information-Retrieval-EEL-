@@ -143,7 +143,6 @@ c
 call
 campaign
 canal
-cant
 career
 cast
 cater
@@ -192,7 +191,7 @@ contract
 contribute
 cost
 could
-couldnt
+couldn
 country
 cover
 create
@@ -219,7 +218,7 @@ detailed
 detroit
 develop
 did
-didnt
+didn
 died
 difference
 different
@@ -487,7 +486,6 @@ night
 north
 not
 nothing
-nothingi
 november
 now
 nuclear
@@ -531,7 +529,6 @@ pennsylvania
 people
 per
 percent
-percent$64
 perform
 perhaps
 personal
@@ -553,7 +550,7 @@ portion
 possibility
 poverty
 practice
-preciseof
+precise
 predatory
 presidency
 president
@@ -588,6 +585,7 @@ radical
 raked
 ransom
 rate
+re
 reading
 really
 reason
@@ -653,10 +651,9 @@ serve
 serving
 shared
 she
-shes
 shooting
 should
-shouldnt
+shouldn
 side
 simply
 single
@@ -692,6 +689,7 @@ support
 suppress
 syria
 system
+t
 take
 talk
 tax
@@ -703,8 +701,6 @@ terrorism
 than
 thank
 that
-that`s
-thats
 their
 them
 then
@@ -760,6 +756,7 @@ uranium
 urgent
 use
 utterly
+ve
 very
 vicious
 victim
@@ -774,9 +771,7 @@ war
 way
 weapon
 were
-weve
 what
-whats
 when
 where
 whether
@@ -785,7 +780,6 @@ while
 who
 whole
 whom
-whove
 why
 will
 willing
@@ -807,4 +801,3 @@ you
 young
 your
 youth
-

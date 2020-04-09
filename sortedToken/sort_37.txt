@@ -104,6 +104,7 @@ biggest
 bill
 billion
 bleached
+bless
 boardroom
 bomb
 bomber
@@ -133,7 +134,6 @@ call
 called
 campaign
 cannot
-cant
 career
 carried
 cartel
@@ -226,7 +226,7 @@ destroyed
 destruction
 developer
 did
-didnt
+didn
 difficult
 dig
 direction
@@ -236,10 +236,10 @@ divided
 doe
 doing
 dollar
+don
 donald
 done
 donor
-dont
 doubt
 down
 downturn
@@ -301,7 +301,7 @@ fee
 fell
 felt
 few
-fiancé
+fianc
 fiduciary
 fifth
 fight
@@ -357,7 +357,7 @@ handed
 happen
 happened
 hardworking
-hasnt
+hasn
 headed
 hear
 heard
@@ -600,6 +600,7 @@ putting
 quickly
 race
 raked
+re
 reached
 ready
 reagan
@@ -686,7 +687,6 @@ shame
 shape
 she
 sheer
-shes
 shooter
 showing
 shut
@@ -737,6 +737,7 @@ survive
 swiss
 syrian
 system
+t
 take
 taken
 talent
@@ -751,15 +752,12 @@ terrorist
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyre
-theyve
 thing
 think
 thinking
@@ -803,6 +801,7 @@ uphold
 use
 used
 value
+ve
 very
 violence
 virtually
@@ -856,7 +855,3 @@ yet
 york
 you
 your
-youve
-
-and
-we

@@ -63,6 +63,7 @@ biggest
 bill
 bitter
 bleached
+bless
 bold
 border
 break
@@ -78,7 +79,6 @@ c
 call
 calling
 campaign
-cant
 car
 career
 catastrophe
@@ -115,7 +115,6 @@ corrupt
 corruption
 could
 country
-countrywe
 court
 create
 crime
@@ -142,10 +141,10 @@ distraction
 doe
 doing
 dollar
+don
 donating
 done
 donor
-dont
 door
 down
 dream
@@ -218,7 +217,6 @@ hampshire
 hand
 happen
 happening
-happenthink
 hard
 hardworking
 harvested
@@ -278,6 +276,7 @@ lie
 life
 lift
 like
+ll
 lobbied
 lobbying
 lobbyist
@@ -379,6 +378,7 @@ quo
 radical
 rally
 rate
+re
 reagan
 reason
 rebuild
@@ -406,6 +406,7 @@ ronald
 room
 rose
 running
+s
 safe
 sale
 saluting
@@ -426,9 +427,6 @@ server
 service
 several
 she
-shed
-shell
-shes
 ship
 shot
 show
@@ -470,7 +468,7 @@ street
 strip
 strong
 stronger
-studentsall
+student
 subpoena
 suffered
 summed
@@ -479,6 +477,7 @@ support
 supported
 supreme
 system
+t
 take
 taking
 talk
@@ -495,7 +494,6 @@ them
 there
 these
 they
-theyre
 thing
 think
 this
@@ -531,6 +529,7 @@ until
 uphold
 upon
 used
+ve
 verdict
 very
 vessel
@@ -579,5 +578,3 @@ year
 you
 young
 your
-youve
-

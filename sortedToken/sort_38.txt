@@ -157,9 +157,9 @@ greatest
 group
 grow
 growing
+hack
 hacked
 hacker
-hacksjp
 happening
 harm
 held
@@ -199,6 +199,7 @@ involves
 involving
 it
 joint
+jp
 just
 justice
 know
@@ -312,6 +313,7 @@ review
 rogue
 rule
 russia
+s
 safe
 scheme
 scope
@@ -326,7 +328,7 @@ senator
 sensitive
 service
 set
-shes
+she
 should
 so
 society
@@ -351,7 +353,6 @@ technology
 terror
 terrorist
 that
-thats
 theft
 their
 them
@@ -406,4 +407,3 @@ will
 with
 work
 world
-

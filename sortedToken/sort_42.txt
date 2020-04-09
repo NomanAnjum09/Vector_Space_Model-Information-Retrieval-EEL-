@@ -58,7 +58,6 @@ by
 c
 called
 campaign
-cant
 cartel
 cashing
 cast
@@ -97,7 +96,7 @@ corporation
 corrupt
 corruption
 could
-couldnt
+couldn
 country
 cover
 crime
@@ -124,15 +123,16 @@ dignity
 disrespectfully
 dnc
 document
-doesnt
+doesn
 doing
 dollar
+don
 dona
 donor
-dont
 during
 dying
 e
+eaks
 earthquake
 economy
 election
@@ -302,6 +302,7 @@ quote
 racist
 raiding
 rally
+re
 read
 really
 reason
@@ -371,6 +372,7 @@ subpoena
 surrendering
 sweatshop
 system
+t
 taxpayer
 team
 teamed
@@ -384,7 +386,6 @@ then
 there
 these
 they
-theyre
 think
 this
 those
@@ -404,6 +405,7 @@ uniform
 univision
 unlimited
 used
+ve
 verdict
 very
 vessel
@@ -421,13 +423,13 @@ way
 wealth
 wealthy
 were
-weve
 what
 when
 whether
 which
 who
 why
+wiki
 wikileaks
 will
 william
@@ -439,6 +441,3 @@ yet
 york
 you
 your
-youre
-youve
-

@@ -54,6 +54,7 @@ bill
 bind
 bitter
 black
+bless
 board
 book
 border
@@ -128,9 +129,9 @@ disaster
 disastrous
 discredited
 displayed
+don
 done
 donor
-dont
 down
 drug
 earlier
@@ -197,7 +198,7 @@ hammer
 hand
 hard
 hardworking
-havent
+haven
 heart
 hedge
 help
@@ -371,6 +372,7 @@ racist
 radical
 raise
 rally
+re
 reach
 reason
 rebuild
@@ -404,6 +406,7 @@ rolled
 run
 running
 rushing
+s
 safe
 safety
 saluting
@@ -421,7 +424,6 @@ sell
 send
 sense
 she
-shes
 ship
 shore
 shot
@@ -455,6 +457,7 @@ summed
 support
 supreme
 syria
+t
 tactic
 take
 taken
@@ -464,7 +467,6 @@ terrorism
 than
 thank
 that
-thats
 their
 them
 then
@@ -527,8 +529,8 @@ why
 will
 win
 with
+won
 wonderful
-wont
 word
 work
 worker
@@ -542,4 +544,3 @@ you
 young
 your
 youth
-

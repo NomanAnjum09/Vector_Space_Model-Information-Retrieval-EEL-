@@ -89,7 +89,6 @@ amendment
 america
 american
 americanism
-americansif
 amount
 an
 announced
@@ -126,6 +125,7 @@ biggest
 bill
 billion
 black
+bless
 bold
 book
 both
@@ -146,12 +146,12 @@ call
 called
 campaign
 canal
-cant
 capped
 car
 care
 case
 causing
+ccording
 cease
 central
 change
@@ -197,7 +197,7 @@ control
 cop
 cost
 could
-couldnt
+couldn
 countervailing
 countless
 country
@@ -254,8 +254,8 @@ disproportionately
 divide
 doe
 dollar
+don
 donor
-dont
 doubled
 down
 drag
@@ -268,6 +268,7 @@ dumping
 duty
 dwindling
 dynamic
+e
 each
 earned
 earning
@@ -302,7 +303,6 @@ even
 ever
 every
 everything
-everythingamericas
 exceeds
 exclude
 expanded
@@ -454,7 +454,6 @@ lie
 life
 lift
 like
-likei
 limit
 live
 living
@@ -489,6 +488,7 @@ meanwhile
 measure
 medium
 men
+merica
 met
 metal
 mexico
@@ -529,7 +529,6 @@ now
 number
 obama
 obamacare
-obamas
 off
 offer
 old
@@ -621,6 +620,7 @@ quarter
 race
 rank
 rate
+re
 reach
 reaching
 reagan
@@ -630,7 +630,7 @@ rebuild
 receive
 receiving
 recovery
-redemptionthe
+redemption
 redistribute
 redistribution
 reduce
@@ -736,7 +736,7 @@ status
 stay
 steel
 steelworker
-stepsim
+step
 still
 stop
 streamline
@@ -749,6 +749,7 @@ success
 supreme
 surrendered
 system
+t
 take
 taken
 tamed
@@ -769,7 +770,6 @@ test
 than
 thank
 that
-thats
 theft
 their
 them
@@ -777,8 +777,6 @@ then
 there
 these
 they
-theyre
-theyve
 thing
 think
 thinking
@@ -825,11 +823,11 @@ unrealized
 until
 upon
 upstate
-upwe
 use
 used
 using
 vast
+ve
 verdict
 vet
 violation
@@ -851,10 +849,8 @@ wealthy
 website
 welfare
 well
-wellaccording
 were
 west
-weve
 what
 when
 where
@@ -864,12 +860,10 @@ white
 who
 why
 will
-willincrease
 with
 woman
 won
 wonderful
-wont
 work
 worked
 worker
@@ -887,4 +881,3 @@ york
 you
 young
 your
-

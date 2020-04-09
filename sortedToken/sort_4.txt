@@ -65,6 +65,7 @@ amnesty
 among
 amount
 an
+ancel
 ann
 announcing
 another
@@ -148,12 +149,10 @@ called
 campaign
 canal
 candidate
-cant
 capability
 care
 career
 cash
-casha
 cause
 caused
 center
@@ -174,7 +173,7 @@ civil
 claim
 class
 clinton
-clintonat
+clock
 come
 coming
 commission
@@ -202,7 +201,7 @@ corrupt
 corrupted
 cost
 could
-couldnt
+couldn
 counting
 country
 court
@@ -225,7 +224,6 @@ daring
 darkest
 date
 day
-daysappoint
 deadly
 deal
 dealing
@@ -256,17 +254,18 @@ dilapidated
 disaster
 disastrous
 disclose
+disdainful
 disgraceful
 disqualifies
 document
 doe
-doesnt
+doesn
 doing
 dollar
 dominant
+don
 donation
 donor
-dont
 door
 down
 dream
@@ -302,6 +301,7 @@ enter
 entire
 entitled
 entrance
+epeal
 equipment
 escaped
 ethic
@@ -379,7 +379,7 @@ handedly
 handing
 happen
 harm
-hasnt
+hasn
 he
 hedge
 helped
@@ -402,6 +402,7 @@ i
 id
 idea
 if
+ift
 illegal
 illegally
 im
@@ -409,12 +410,13 @@ immigrant
 immigration
 importantly
 impose
-impulsivedisdainful
+impulsive
 includes
 including
 increase
 independence
 infrastructure
+ing
 inner
 inside
 insider
@@ -437,8 +439,6 @@ it
 itself
 jewelry
 job
-jobseverywhere
-jobsstand
 join
 judge
 judgement
@@ -471,7 +471,6 @@ leave
 left
 let
 letter
-letterhillary
 level
 lgbt
 liar
@@ -496,9 +495,9 @@ major
 make
 making
 managedto
+manufactur
 manufacturing
 many
-manycancel
 map
 mary
 mass
@@ -508,7 +507,6 @@ maybe
 me
 mean
 mendoza
-mendozas
 message
 mexico
 middle
@@ -545,14 +543,11 @@ november
 now
 nuclear
 number
+o
 obama
 obamacare
-obamas
-oclock
 off
 office
-officeshe
-officefrom
 offshoring
 often
 old
@@ -574,7 +569,6 @@ outside
 oval
 over
 overseas
-overseaslift
 own
 pacific
 pad
@@ -628,7 +622,7 @@ problem
 produce
 produced
 product
-productionrepeal
+production
 profit
 promise
 promoter
@@ -656,6 +650,7 @@ raised
 ran
 rang
 rather
+re
 real
 reality
 rebuild
@@ -687,7 +682,6 @@ return
 reveal
 reward
 rich
-richthe
 rigged
 right
 rising
@@ -710,9 +704,8 @@ sanction
 sander
 satellite
 saudi
-sayi
+say
 saying
-sayingthe
 school
 schweitzer
 scorned
@@ -755,7 +748,6 @@ slogan
 small
 so
 soared
-soho
 solar
 sold
 solve
@@ -802,10 +794,12 @@ sworn
 syria
 syrian
 system
+t
 taking
 talent
 taliban
 tamed
+tand
 tax
 taxation
 technology
@@ -818,7 +812,6 @@ terrorist
 than
 thanks
 that
-thats
 theft
 their
 them
@@ -865,7 +858,7 @@ treaty
 trial
 tried
 trillion
-trueher
+true
 trump
 tryout
 turn
@@ -883,6 +876,7 @@ uphold
 uranium
 used
 value
+ve
 verdict
 very
 victim
@@ -896,7 +890,6 @@ visited
 volcanic
 vote
 voter
-voterif
 wa
 wage
 wait
@@ -905,16 +898,14 @@ want
 war
 warned
 washington
-wasnt
+wasn
 wave
 way
 wealth
 weapon
 were
 west
-weve
 what
-whats
 when
 where
 whether
@@ -946,5 +937,3 @@ yesterday
 york
 you
 young
-
-just

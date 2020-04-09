@@ -219,7 +219,7 @@ def tokenizer():
             w = ''
             for j in range(len(content)):
 
-                if((content[j] in [' ', '.', '\n',']','-']) and w != '' and w != "'"):
+                if((content[j] in [' ', '.', '\n',']','-','?']) and w != '' and w != "'" or (content[j-1]>='a' and content[j-1]<='z' and (content[j]>'z' or content[j]<'a'))):
                     # removing stopwords
                     if(w not in stopwords and w not in ['']):
                         #wor = stemmer.stem(w)
@@ -228,7 +228,7 @@ def tokenizer():
 
                     w = ''
 
-                elif content[j] not in ['', ' ', '[', ',', ':', '?', '(',')','—','"',';',"'",'!','-','.','\n']:
+                elif content[j] not in ['', ' ', '[', ',', ':', '?', '(',')','—','"',';',"'",'!','-','.','\n','']:
                     if(content[j] >= 'A' and content[j] <= 'Z'):  # Case folding
                         w = w+chr(ord(content[j])+32)
                     else:
@@ -449,13 +449,16 @@ def fetch_docs( parsed, query_tf, results):
         vector = file.read().split('\n')
         ans = 0
         a = 0
+        print("Vector For Doc {}".format(i))
+        print("<",end='')
         for j in range(len(query_vector)):
+            print("{},".format(vector[results[j]]),end=' ')
             ans = ans+query_vector[j]*float(vector[results[j]])
             a += pow(query_vector[j], 2)
-
+        print(">")
         b = float(normal_vectors[i])
         try:
-            rslt = round(ans/(math.sqrt(a)*b), 6)
+            rslt = round(ans/(math.sqrt(a)*b), 10)
             print("<A><B>/|A||B| = {}/ |{}||{}|".format(ans,math.sqrt(a),b))
         except:
             rslt = 0
@@ -490,10 +493,12 @@ def entertain(text,cutoff,choice):
     result = fetch_docs(parsed,query_tf,results)
     docs = []
     print("Result Of Cosine Calculation")
-    print(result)
+    
     for i in range(56):
         docs.append(i)
     sort_doc(result,docs,0,len(result)-1)
+    print(list(zip(docs,result)))
+
     ans =[]
     counter =0
     print("Cutoff",end='->')
@@ -564,3 +569,5 @@ def say_hello_py(query,cutoff,choice):
 
    # Call a Javascript function
 eel.start('index.html', size=(800, 800))
+
+

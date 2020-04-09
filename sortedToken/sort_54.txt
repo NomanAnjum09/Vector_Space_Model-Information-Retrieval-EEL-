@@ -177,12 +177,12 @@ despite
 destroyed
 destruction
 dictator
-didnt
+didn
 died
 disappear
 disaster
 disclosure
-doesnt
+doesn
 dollar
 donor
 double
@@ -194,6 +194,7 @@ drama
 dream
 dreaming
 drug
+eaks
 east
 eggle
 elect
@@ -217,7 +218,7 @@ establishment
 even
 ever
 every
-everybodys
+everybody
 everything
 evidence
 exceptional
@@ -269,7 +270,7 @@ guilty
 half
 hammer
 happen
-havent
+haven
 he
 head
 healthcare
@@ -531,6 +532,7 @@ roaming
 ronald
 ronnebeck
 rule
+s
 safe
 safety
 said
@@ -553,8 +555,6 @@ set
 shale
 shape
 she
-shed
-shes
 shielding
 shipped
 shot
@@ -598,6 +598,7 @@ survivor
 swamp
 syria
 system
+t
 take
 tarmac
 tax
@@ -606,7 +607,6 @@ terrible
 terrorist
 than
 that
-thats
 theft
 their
 them
@@ -614,7 +614,6 @@ then
 there
 these
 they
-theyve
 thing
 think
 third
@@ -650,6 +649,7 @@ unlock
 unnecessary
 uphold
 upstate
+ve
 vega
 vet
 violent
@@ -683,14 +683,14 @@ who
 whoever
 whole
 wide
-wikileaks
+wiki
 will
 willful
 win
 wind
 with
 woman
-wont
+won
 word
 worker
 working
@@ -698,7 +698,7 @@ world
 worse
 worst
 would
-wouldnt
+wouldn
 year
 yearns
 yes
@@ -708,7 +708,4 @@ york
 you
 young
 your
-youve
 yuma
-
-we

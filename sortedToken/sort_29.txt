@@ -70,6 +70,7 @@ best
 bigger
 billion
 bitter
+bless
 border
 break
 bridge
@@ -163,8 +164,8 @@ disqualifying
 distract
 doe
 dollar
+don
 donald
-dont
 door
 doubled
 drastically
@@ -203,7 +204,7 @@ failed
 failing
 fails
 failure
-faith
+faith
 family
 fascism
 fifty
@@ -236,7 +237,6 @@ harvested
 hatred
 helped
 here
-herelets
 high
 highest
 highway
@@ -276,7 +276,7 @@ irredeemable
 isi
 islam
 islamic
-isnt
+isn
 it
 j
 january
@@ -387,7 +387,6 @@ plan
 plane
 point
 policy
-policyhillary
 polling
 possible
 poverty
@@ -437,6 +436,7 @@ road
 rose
 rule
 rushing
+s
 sacred
 safe
 saluting
@@ -476,7 +476,6 @@ spent
 spine
 started
 state
-stateswe
 steel
 stop
 strong
@@ -496,6 +495,7 @@ suspend
 syria
 syrian
 system
+t
 take
 talk
 talked
@@ -537,7 +537,6 @@ trapped
 travel
 truly
 trump
-trumpamerica
 trying
 tunnel
 turn
@@ -588,18 +587,17 @@ win
 with
 withdrawal
 woman
+won
 wonderful
-wont
 word
 worker
 working
 world
 would
-wouldnt
+wouldn
 year
 yet
 york
 you
 your
 youth
-

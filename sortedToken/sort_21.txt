@@ -44,8 +44,8 @@ asheville
 ashville
 ask
 association
+attack
 attacking
-attacksto
 available
 away
 back
@@ -64,6 +64,7 @@ bill
 bit
 bitter
 bleach
+bless
 book
 break
 bring
@@ -77,7 +78,6 @@ came
 campaign
 cancelled
 candidate
-cant
 captain
 car
 care
@@ -155,7 +155,6 @@ disqualifying
 doctor
 dollar
 donald
-donaldjtrump
 donor
 down
 drive
@@ -301,9 +300,10 @@ lift
 like
 lincoln
 live
+ll
 local
 look
-loselet
+lose
 lost
 lot
 love
@@ -416,6 +416,7 @@ put
 putting
 r
 racist
+re
 read
 real
 rebuilding
@@ -448,6 +449,7 @@ run
 running
 rushing
 russian
+s
 sacrifice
 safe
 said
@@ -512,6 +514,7 @@ supported
 supporter
 supporting
 system
+t
 take
 talk
 tax
@@ -525,7 +528,6 @@ testament
 than
 thank
 that
-thats
 their
 them
 themselves
@@ -533,7 +535,6 @@ then
 there
 these
 they
-theyre
 thing
 think
 this
@@ -568,6 +569,7 @@ uranium
 use
 used
 va
+ve
 veteran
 viciously
 violated
@@ -584,7 +586,6 @@ way
 website
 welder
 were
-weve
 what
 when
 whether
@@ -603,7 +604,4 @@ world
 xenophobic
 year
 you
-youll
 your
-youve
-

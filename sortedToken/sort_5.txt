@@ -10,7 +10,7 @@ $8
 2011
 2012
 2014
-2017most
+2017
 24
 3
 30
@@ -25,7 +25,6 @@ accomplishment
 according
 account
 accountability
-accountabilityright
 across
 act
 action
@@ -49,7 +48,6 @@ always
 amazingly
 america
 american
-americaonei
 amount
 an
 another
@@ -106,10 +104,8 @@ bypass
 calculated
 campaign
 candidate
-cant
 care
 carelessness
-careveterans
 carried
 cartel
 catastrophe
@@ -211,7 +207,7 @@ disqualifying
 disturbed
 division
 doctor
-doesnt
+doesn
 dollar
 done
 down
@@ -226,7 +222,7 @@ each
 easier
 easily
 easy
-eightwe
+eight
 either
 elected
 elite
@@ -247,6 +243,7 @@ epidemic
 equally
 erased
 especially
+eterans
 eternal
 even
 everlasting
@@ -283,7 +280,7 @@ financial
 find
 finding
 first
-fivei
+five
 fix
 fixed
 fixing
@@ -296,7 +293,7 @@ forty
 fought
 found
 foundation
-fouri
+four
 from
 front
 full
@@ -322,7 +319,7 @@ hand
 happen
 harassment
 harm
-hasnt
+hasn
 he
 headline
 health
@@ -347,6 +344,7 @@ hurting
 i
 id
 if
+ight
 image
 imagine
 important
@@ -380,11 +378,9 @@ involved
 isi
 issue
 it
-itshe
 january
 jeff
 job
-jobsevery
 judgement
 july
 just
@@ -417,6 +413,7 @@ like
 likely
 line
 live
+ll
 long
 look
 lose
@@ -472,15 +469,14 @@ neighborhood
 never
 new
 next
-ninewe
+nine
 not
-nothingit
+nothing
 november
 now
 number
 oath
 obama
-obamas
 obtain
 occurred
 offender
@@ -599,6 +595,7 @@ rule
 ruling
 run
 rush
+s
 sacred
 sacrifice
 safe
@@ -629,7 +626,7 @@ serve
 served
 server
 service
-sevenwe
+seven
 sex
 she
 shocking
@@ -641,7 +638,7 @@ significant
 simple
 since
 single
-sixi
+six
 small
 smart
 so
@@ -675,15 +672,15 @@ support
 sure
 system
 systemic
+t
 take
 taking
 taxpayer
-tenwe
+ten
 than
 thank
 thanklessly
 that
-thats
 their
 them
 then
@@ -698,7 +695,7 @@ this
 those
 thousand
 threat
-threei
+three
 through
 time
 timely
@@ -725,7 +722,6 @@ trump
 trust
 turbine
 two
-twoi
 u
 ugly
 ultimate
@@ -738,9 +734,9 @@ unleashing
 use
 va
 valid
+ve
 very
 veteran
-veterans
 victim
 vietnam
 violation
@@ -768,7 +764,6 @@ weekend
 well
 went
 were
-weve
 what
 when
 where
@@ -794,12 +789,11 @@ worker
 working
 world
 would
-wouldnt
+wouldn
 wrongdoing
 year
 yet
 york
 you
 young
-
 

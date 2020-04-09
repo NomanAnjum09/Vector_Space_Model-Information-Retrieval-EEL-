@@ -120,12 +120,11 @@ did
 directly
 disaster
 discriminates
-doa
-doesnt
+doesn
 dollar
+don
 donation
 donor
-dont
 down
 dream
 dry
@@ -148,7 +147,6 @@ equally
 equipment
 era
 ericsson
-ericssons
 ever
 every
 everyday
@@ -425,6 +423,7 @@ support
 surrender
 syria
 system
+t
 take
 talk
 tax
@@ -439,7 +438,6 @@ test
 than
 thank
 that
-thats
 their
 these
 they
@@ -492,7 +490,7 @@ wilmington
 win
 with
 woman
-wont
+won
 word
 work
 worker
@@ -505,5 +503,3 @@ yesterday
 you
 young
 your
-
-but

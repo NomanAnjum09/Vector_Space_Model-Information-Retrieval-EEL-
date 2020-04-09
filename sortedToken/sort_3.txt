@@ -92,7 +92,6 @@ belief
 benefit
 bernardino
 better
-betterwhy
 between
 beyond
 bigger
@@ -119,7 +118,6 @@ by
 called
 came
 cannot
-cant
 carnage
 catastrophic
 caused
@@ -162,12 +160,12 @@ correctness
 cost
 could
 country
-countrythey
 created
 crime
 cripple
 criticism
 current
+d
 damage
 damaged
 dangerous
@@ -196,7 +194,7 @@ devastated
 devastating
 develop
 did
-didnt
+didn
 director
 disarm
 disastrous
@@ -205,12 +203,12 @@ discussed
 disgrace
 documentation
 doe
-doesnt
+doesn
 doing
 dollar
+don
 donald
 done
-dont
 dozen
 dysfunctional
 each
@@ -295,7 +293,6 @@ government
 gravely
 great
 group
-groupstruly
 grow
 growing
 gun
@@ -304,8 +301,8 @@ hampshire
 happen
 happened
 hate
-hatredhillary
-havent
+hatred
+haven
 having
 he
 head
@@ -313,8 +310,6 @@ heart
 held
 helped
 here
-herewe
-herein
 hijacker
 hillary
 history
@@ -468,10 +463,8 @@ nothing
 now
 nra
 number
-numberswho
 nurture
 obama
-obamas
 observe
 offense
 official
@@ -564,6 +557,7 @@ radicalization
 radicalized
 raise
 raised
+re
 ready
 real
 really
@@ -598,6 +592,7 @@ rich
 right
 road
 running
+s
 safe
 safety
 said
@@ -679,6 +674,7 @@ sympathy
 syria
 syrian
 system
+t
 take
 taliban
 talk
@@ -701,7 +697,6 @@ then
 there
 these
 they
-theyre
 thing
 think
 this
@@ -728,6 +723,7 @@ tremendous
 tried
 trillion
 trojan
+truly
 trump
 truth
 trying
@@ -743,9 +739,9 @@ upon
 use
 used
 value
-valuesimmigration
 vast
 vastly
+ve
 version
 very
 vet
@@ -766,7 +762,6 @@ week
 were
 west
 western
-weve
 what
 whatsoever
 when
@@ -785,8 +780,8 @@ will
 with
 without
 woman
+won
 wonderful
-wont
 word
 work
 worker
@@ -794,14 +789,12 @@ world
 worse
 worst
 would
-wouldnt
+wouldn
 wounded
 year
 yes
 yesterday
 yet
 you
-youd
 your
 yourself
-

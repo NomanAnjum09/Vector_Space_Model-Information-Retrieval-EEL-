@@ -135,7 +135,6 @@ call
 called
 came
 candidate
-cant
 care
 carry
 cartel
@@ -144,7 +143,7 @@ cash
 catch
 census
 certainly
-changeit
+change
 charge
 charged
 charter
@@ -231,10 +230,10 @@ dispute
 division
 doctor
 dome
+don
 donald
 donated
 donor
-dont
 down
 during
 e
@@ -271,7 +270,6 @@ expect
 exponentially
 facility
 fact
-factsthe
 failed
 failure
 fairness
@@ -446,7 +444,6 @@ nearly
 negotiated
 never
 new
-newlet
 nexus
 not
 nothing
@@ -457,7 +454,6 @@ numerous
 oath
 obama
 obamacare
-obamas
 offense
 office
 officer
@@ -530,6 +526,7 @@ racketeering
 raise
 rank
 rate
+re
 ready
 real
 received
@@ -634,6 +631,7 @@ suspends
 syndicate
 syrian
 system
+t
 take
 taking
 talk
@@ -650,7 +648,6 @@ texas
 than
 thank
 that
-thats
 theft
 their
 them
@@ -748,5 +745,4 @@ you
 young
 your
 zone
-
 

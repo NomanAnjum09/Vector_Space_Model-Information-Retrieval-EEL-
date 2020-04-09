@@ -116,7 +116,6 @@ but
 by
 c
 call
-cant
 carbon
 carolina
 cartel
@@ -210,10 +209,10 @@ economy
 education
 effective
 either
-el
 electric
 eliminate
 elimination
+else
 end
 energy
 enforcement
@@ -254,7 +253,6 @@ fixing
 florida
 flowing
 following
-followingincrease
 foreign
 fossil
 foundation
@@ -341,7 +339,7 @@ invasive
 investigator
 investment
 inviting
-isnt
+isn
 issued
 it
 jersey
@@ -559,6 +557,7 @@ rising
 risk
 rudy
 rule
+s
 safe
 safely
 safety
@@ -614,6 +613,7 @@ supposed
 surface
 syndicate
 system
+t
 tax
 technology
 temporary
@@ -626,7 +626,6 @@ thank
 thanklessly
 thanks
 that
-thats
 their
 them
 then
@@ -728,4 +727,3 @@ yearsincrease
 york
 you
 your
-

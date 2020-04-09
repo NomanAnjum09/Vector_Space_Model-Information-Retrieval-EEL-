@@ -148,6 +148,7 @@ drinking
 drive
 drug
 dumping
+eaks
 east
 economic
 economy
@@ -274,13 +275,13 @@ life
 like
 limit
 living
+ll
 lobbyist
 local
 location
 long
 look
 lose
-losevote
 losing
 lost
 low
@@ -436,6 +437,7 @@ ripped
 road
 ronald
 run
+s
 safe
 safety
 said
@@ -455,7 +457,6 @@ serve
 service
 shale
 she
-shes
 ship
 shipped
 shore
@@ -501,6 +502,7 @@ swamp
 swiftly
 syrian
 system
+t
 take
 target
 tax
@@ -543,6 +545,7 @@ unleash
 unnecessary
 upgrade
 uphold
+ve
 very
 veteran
 vibrant
@@ -567,20 +570,18 @@ wealth
 wealthy
 welder
 well
-were
-weve
 what
 white
 who
 whose
 why
-wikileaks
+wiki
 will
 win
 with
 within
 woman
-wont
+won
 work
 working
 world
@@ -591,6 +592,3 @@ yes
 yet
 you
 your
-youre
-youve
-

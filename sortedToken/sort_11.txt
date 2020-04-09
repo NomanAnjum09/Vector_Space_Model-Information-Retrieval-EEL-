@@ -41,7 +41,6 @@ announcement
 another
 any
 anyone
-anyones
 apart
 apologize
 apologized
@@ -49,7 +48,7 @@ apology
 appease
 applicant
 appoint
-arent
+aren
 around
 arrogant
 ask
@@ -69,12 +68,12 @@ behind
 being
 belief
 believe
-benghazihas
+benghazi
 best
 betray
 betrayed
 better
-bidderhas
+bidder
 big
 bigotry
 bill
@@ -192,12 +191,12 @@ digit
 diplomat
 disaster
 discover
-doesnt
+doesn
 dollar
+don
 donald
 done
 donor
-dont
 double
 down
 dreadful
@@ -215,7 +214,6 @@ effect
 elected
 else
 email
-emailshas
 embrace
 embraced
 emphasizing
@@ -239,7 +237,7 @@ everything
 exact
 exchange
 excluded
-expensearent
+expense
 express
 extend
 factory
@@ -330,7 +328,7 @@ honor
 honored
 hope
 hoping
-horriblythese
+horribly
 hostage
 hour
 how
@@ -365,12 +363,11 @@ iran
 iraq
 isi
 islamic
-isnt
+isn
 issue
 it
 ive
 jamiel
-jamielwhere
 job
 joblessness
 join
@@ -416,6 +413,7 @@ listen
 little
 live
 living
+ll
 lobbyist
 long
 look
@@ -486,7 +484,6 @@ now
 nuclear
 obama
 obamacare
-obamas
 obsessing
 offer
 office
@@ -619,6 +616,7 @@ risk
 root
 roughly
 running
+s
 sabine
 sacrifice
 sacrificed
@@ -652,7 +650,6 @@ share
 sharia
 shaw
 she
-shes
 sign
 signed
 silence
@@ -702,6 +699,7 @@ syndicate
 syria
 syrian
 system
+t
 take
 taken
 talent
@@ -716,20 +714,17 @@ tenure
 term
 terrible
 terrorism
-terrorismspeaking
 terrorist
 terrorizing
 thank
 thanks
 that
-thats
 their
 them
 then
 there
 these
 they
-theyll
 thing
 think
 this
@@ -774,6 +769,7 @@ unleashing
 until
 use
 value
+ve
 very
 veteran
 vetted
@@ -790,14 +786,12 @@ wanted
 warfare
 way
 wealth
-weaponshas
+weapon
 week
 welcome
 went
 were
-weve
 what
-whats
 when
 where
 which
@@ -805,7 +799,6 @@ while
 who
 whole
 whose
-whove
 why
 wilkerson
 will
@@ -822,7 +815,6 @@ worker
 workforce
 working
 world
-worldhas
 worse
 worthy
 would
@@ -831,9 +823,6 @@ wto
 year
 yet
 you
-youll
 young
 your
 yours
-youthat
-

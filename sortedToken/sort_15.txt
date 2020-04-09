@@ -87,15 +87,15 @@ desperately
 destroy
 determined
 detroit
-didnt
+didn
 different
 difficult
 discrimination
 discus
 divided
 doing
+don
 done
-dont
 down
 dr
 each
@@ -126,7 +126,6 @@ fantastic
 fight
 fine
 folk
-folkswere
 form
 from
 fulfilled
@@ -210,6 +209,7 @@ like
 lincoln
 listen
 live
+ll
 long
 look
 looking
@@ -293,6 +293,7 @@ provide
 pulpit
 put
 raise
+re
 reach
 read
 realize
@@ -305,9 +306,9 @@ renew
 republican
 riding
 right
-rightour
 road
 room
+s
 sad
 safety
 same
@@ -319,7 +320,6 @@ see
 seek
 seen
 she
-shes
 sideline
 sidewalk
 sir
@@ -349,6 +349,7 @@ such
 suffered
 support
 system
+t
 take
 taking
 talent
@@ -360,12 +361,10 @@ tell
 than
 thank
 that
-thats
 them
 there
 these
 they
-theyre
 thing
 think
 this
@@ -417,7 +416,6 @@ would
 wrong
 wrote
 you
-youll
 young
 your
 

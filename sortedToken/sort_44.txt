@@ -154,6 +154,7 @@ crime
 criminal
 crossroad
 crushed
+d
 dawn
 day
 dead
@@ -187,7 +188,7 @@ determine
 determined
 detroit
 did
-didnt
+didn
 different
 directly
 director
@@ -204,6 +205,7 @@ dollar
 domestic
 done
 dry
+eaks
 economic
 effort
 egregious
@@ -308,6 +310,7 @@ hell
 help
 helping
 here
+hese
 highly
 hillary
 hispanic
@@ -425,7 +428,7 @@ money
 month
 morally
 more
-morningthese
+morning
 most
 mother
 movement
@@ -612,6 +615,7 @@ supposedly
 supreme
 survival
 system
+t
 take
 taken
 taking
@@ -632,8 +636,6 @@ then
 there
 these
 they
-theyd
-theyve
 thing
 this
 those
@@ -663,6 +665,7 @@ unlimited
 upon
 use
 used
+ve
 very
 veteran
 veto
@@ -675,7 +678,7 @@ want
 war
 warned
 washington
-wasnt
+wasn
 way
 wealth
 weapon
@@ -683,9 +686,7 @@ weekend
 well
 were
 west
-weve
 what
-whats
 when
 where
 whether
@@ -694,19 +695,18 @@ while
 white
 who
 whose
-whove
 why
 widespread
 wield
-wikileaks
+wiki
 wild
 will
 win
 with
 witness
 woman
+won
 wonderful
-wont
 word
 work
 worked
@@ -724,4 +724,3 @@ yet
 york
 you
 your
-

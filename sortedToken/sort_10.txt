@@ -57,7 +57,7 @@ anti
 any
 appoint
 area
-arent
+aren
 ask
 asking
 asks
@@ -121,7 +121,6 @@ chairman
 champion
 chance
 change
-changeare
 charter
 chicago
 child
@@ -201,7 +200,7 @@ discredited
 dishonor
 disruptor
 disservice
-doesnt
+doesn
 dollar
 done
 donor
@@ -242,7 +241,6 @@ executive
 existence
 expectation
 expense
-expensearent
 eye
 fact
 failed
@@ -262,7 +260,6 @@ fighter
 fighting
 financial
 first
-firstlets
 five
 foment
 forbid
@@ -299,19 +296,17 @@ graduation
 granted
 great
 greater
-hadnt
+hadn
 half
 happen
 hatred
 healthcare
 hear
 heard
-heardare
 heartache
 hedge
 help
 here
-heri
 high
 hillary
 hire
@@ -398,6 +393,7 @@ lining
 listen
 live
 living
+ll
 lobbyist
 long
 look
@@ -465,15 +461,14 @@ non
 not
 nothing
 now
+obama
 obamacare
-obamas
 off
 offender
 offer
 offered
 office
 officer
-officersthe
 official
 old
 one
@@ -613,6 +608,7 @@ rule
 run
 running
 rush
+s
 sacrifice
 safe
 safely
@@ -642,7 +638,6 @@ service
 serving
 share
 she
-shes
 shooting
 shore
 shot
@@ -683,6 +678,7 @@ supporter
 sure
 syndicate
 system
+t
 take
 taken
 taking
@@ -699,14 +695,11 @@ than
 thank
 thanking
 that
-thats
 their
 them
 there
 these
 they
-theyll
-theyve
 thing
 think
 thirty
@@ -746,6 +739,7 @@ understand
 united
 unrest
 value
+ve
 very
 victim
 violence
@@ -770,7 +764,6 @@ wear
 week
 were
 west
-weve
 what
 when
 whether
@@ -778,7 +771,6 @@ which
 while
 white
 who
-whove
 will
 win
 wisconsin
@@ -799,4 +791,3 @@ york
 you
 young
 your
-

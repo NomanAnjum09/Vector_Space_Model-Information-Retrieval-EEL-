@@ -197,7 +197,6 @@ called
 campaign
 canal
 cannot
-cant
 capture
 care
 careless
@@ -287,7 +286,7 @@ correct
 correctness
 cost
 could
-couldnt
+couldn
 council
 country
 courage
@@ -340,7 +339,7 @@ detonated
 develop
 dictate
 did
-didnt
+didn
 died
 difference
 different
@@ -358,13 +357,13 @@ disrupt
 divider
 division
 doe
-doesnt
+doesn
 doing
 dollar
 dominant
+don
 donation
 done
-dont
 doubt
 douglas
 down
@@ -462,7 +461,7 @@ feature
 federal
 female
 few
-fiancée
+fianc
 fifty
 fight
 figure
@@ -568,7 +567,6 @@ health
 healthcare
 heard
 hebdo
-hell
 help
 here
 hezbollah
@@ -709,6 +707,7 @@ linking
 list
 listen
 listened
+ll
 local
 long
 longer
@@ -716,7 +715,7 @@ look
 loose
 loss
 love
-macarthur
+mac
 made
 mafia
 magazine
@@ -806,8 +805,6 @@ now
 nuclear
 number
 obama
-obama/clinton
-obamas
 obsolete
 obviously
 occurred
@@ -894,7 +891,6 @@ prepare
 presence
 presentation
 president
-presidental
 prevented
 previously
 pride
@@ -941,6 +937,7 @@ radicalization
 rallying
 rampage
 ransom
+re
 reached
 reagan
 really
@@ -998,6 +995,7 @@ ronald
 room
 roughly
 rounding
+rthur
 ruin
 ruled
 run
@@ -1061,7 +1059,7 @@ shore
 short
 shot
 should
-shouldnt
+shouldn
 show
 shut
 sick
@@ -1149,6 +1147,7 @@ syria
 syrian
 system
 systematic
+t
 take
 taken
 taking
@@ -1175,7 +1174,6 @@ texas
 than
 thank
 that
-thats
 their
 theirs
 them
@@ -1183,7 +1181,6 @@ then
 there
 these
 they
-theyre
 thing
 think
 thirteen
@@ -1259,6 +1256,7 @@ ussr
 vacuum
 valuable
 value
+ve
 venture
 very
 vetting
@@ -1300,9 +1298,7 @@ went
 were
 west
 westernized
-weve
 what
-whats
 when
 where
 which
@@ -1312,7 +1308,6 @@ whole
 whom
 whomever
 whose
-whove
 why
 will
 winner
@@ -1332,7 +1327,7 @@ world
 worse
 worst
 would
-wouldnt
+wouldn
 wounded
 wounding
 wrong

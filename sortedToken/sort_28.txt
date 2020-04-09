@@ -47,7 +47,7 @@ austin
 authority
 awaited
 back
-barsthis
+bar
 because
 been
 before
@@ -94,7 +94,6 @@ core
 correctional
 cost
 country
-countrywhat
 courage
 course
 crime
@@ -122,13 +121,13 @@ desk
 detained
 detention
 determined
-didnt
+didn
 dining
 dinner
 doe
-doesnt
+doesn
+don
 donor
-dont
 dozen
 driver
 drug
@@ -200,7 +199,6 @@ hillary
 him
 hold
 home
-homewhat
 honor
 honored
 hotel
@@ -251,6 +249,7 @@ let
 life
 lifetime
 like
+ll
 lonely
 long
 longer
@@ -374,9 +373,7 @@ sexual
 shadow
 share
 she
-shell
 sheriff
-shes
 shine
 shot
 should
@@ -408,6 +405,7 @@ strength
 subsequently
 suffering
 suspend
+t
 table
 take
 taking
@@ -423,7 +421,6 @@ them
 there
 these
 they
-theyll
 this
 those
 thousand
@@ -442,6 +439,7 @@ understand
 united
 unprecedented
 utterly
+ve
 veteran
 victim
 victimized
@@ -460,7 +458,6 @@ welfare
 were
 westside
 what
-whats
 when
 whether
 which
@@ -480,6 +477,4 @@ year
 you
 young
 your
-youve
 zero
-

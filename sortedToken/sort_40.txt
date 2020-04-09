@@ -28,6 +28,7 @@ $800
 4%
 40
 45
+5%
 50
 50%
 550%
@@ -69,7 +70,6 @@ amazing
 amendment
 america
 american
-americans45%
 among
 an
 announced
@@ -82,7 +82,7 @@ anything
 apply
 appoint
 arabia
-arent
+aren
 argue
 arizona
 around
@@ -142,7 +142,6 @@ by
 c
 california
 called
-cant
 car
 care
 carried
@@ -186,7 +185,7 @@ convicted
 conviction
 core
 corrupt
-corruptionhillary
+corruption
 cost
 could
 countless
@@ -241,12 +240,12 @@ distraction
 divided
 doctor
 doe
-doesnt
+doesn
 dollar
+don
 donald
 donated
 donor
-dont
 doubled
 down
 drug
@@ -291,7 +290,7 @@ fall
 far
 fbi
 federal
-fiancé
+fianc
 fiat
 field
 fifth
@@ -339,10 +338,10 @@ growth
 gun
 gunned
 hacking
-halfthe
+half
 hammer
 hardworking
-hasnt
+hasn
 he
 healthcare
 heavily
@@ -353,6 +352,7 @@ herself
 high
 higher
 hillary
+hina
 history
 home
 homicide
@@ -365,6 +365,7 @@ hundred
 i
 ice
 if
+illary
 illegal
 imagine
 immediately
@@ -497,7 +498,6 @@ nevada
 never
 new
 night
-nightmike
 not
 november
 now
@@ -507,7 +507,6 @@ numbered
 oath
 obama
 obamacare
-obamas
 occasion
 october
 office
@@ -589,6 +588,7 @@ race
 racist
 rally
 rate
+re
 reach
 reagan
 real
@@ -620,7 +620,7 @@ republican
 respect
 rest
 revitalized
-revivalchina
+revival
 rich
 right
 righteous
@@ -639,8 +639,6 @@ s
 safe
 safety
 said
-saidhe
-saidpeople
 saluting
 same
 san
@@ -667,7 +665,6 @@ sexually
 share
 shaw
 she
-shes
 shooter
 shooting
 shot
@@ -721,6 +718,7 @@ surged
 syria
 syrian
 system
+t
 take
 taliban
 talk
@@ -734,7 +732,6 @@ terrorist
 than
 thank
 that
-thats
 theft
 their
 them
@@ -742,7 +739,6 @@ then
 there
 these
 they
-theyve
 thing
 third
 this
@@ -777,6 +773,7 @@ unnecessary
 unworthy
 uphold
 upstate
+ve
 verdict
 very
 vessel
@@ -808,7 +805,6 @@ week
 welfare
 well
 were
-weve
 what
 when
 where
@@ -836,10 +832,5 @@ year
 york
 you
 your
-youre
 yourselves
 youth
-youve
-
-and
-make

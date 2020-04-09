@@ -133,7 +133,6 @@ called
 came
 candidate
 cannot
-cant
 capability
 captured
 care
@@ -161,6 +160,7 @@ civilization
 clarity
 clear
 clinton
+clock
 close
 closely
 club
@@ -236,7 +236,7 @@ deterrent
 develop
 dictator
 did
-didnt
+didn
 difference
 diplomacy
 direction
@@ -249,8 +249,8 @@ dislike
 doing
 dollar
 dominance
+don
 done
-dont
 down
 dozen
 draw
@@ -572,10 +572,9 @@ not
 now
 nuclear
 numbered
+o
 obama
-obamas
 obligation
-oclock
 off
 oil
 old
@@ -672,6 +671,7 @@ randomness
 rapidly
 rather
 rational
+re
 reach
 reagan
 real
@@ -837,6 +837,7 @@ surrender
 surrounding
 syria
 systematically
+t
 table
 tackling
 take
@@ -866,7 +867,6 @@ then
 there
 these
 they
-theyre
 thing
 think
 thirdly
@@ -929,6 +929,7 @@ use
 used
 vacuum
 value
+ve
 veered
 very
 veteran
@@ -970,10 +971,8 @@ well
 went
 were
 western
-weve
 what
 whatever
-whats
 when
 where
 which
@@ -990,7 +989,6 @@ without
 woman
 won
 wonder
-wont
 word
 work
 worker
@@ -1003,5 +1001,3 @@ would
 year
 you
 your
-youre
-

@@ -66,6 +66,7 @@ bigger
 billion
 bitter
 bleached
+bless
 blighted
 block
 border
@@ -85,7 +86,6 @@ by
 c
 campaign
 cannot
-cant
 car
 carry
 center
@@ -128,7 +128,7 @@ corporation
 corrupt
 cost
 could
-couldnt
+couldn
 country
 course
 court
@@ -162,11 +162,11 @@ disastrous
 disrupt
 doing
 dollar
+don
 donald
 donating
 donation
 donor
-dont
 door
 doubter
 down
@@ -337,6 +337,7 @@ line
 little
 live
 living
+ll
 look
 looking
 lose
@@ -465,6 +466,7 @@ radical
 rally
 rasmussen
 ravaged
+re
 read
 reason
 rebuild
@@ -573,6 +575,7 @@ supreme
 sure
 surged
 system
+t
 take
 taking
 talent
@@ -585,14 +588,12 @@ terrorism
 than
 thank
 that
-thats
 their
 them
 then
 there
 these
 they
-theyre
 thing
 thinking
 this
@@ -638,6 +639,7 @@ urban
 use
 used
 value
+ve
 verdict
 very
 victory
@@ -659,10 +661,8 @@ wealth
 wealthy
 website
 week
-well
 went
 were
-weve
 what
 where
 which
@@ -689,4 +689,3 @@ york
 you
 your
 youth
-

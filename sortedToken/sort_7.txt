@@ -170,7 +170,6 @@ came
 campaign
 candidate
 cannot
-cant
 capital
 captor
 care
@@ -206,7 +205,6 @@ civil
 class
 classified
 cleveland
-clevelandi
 clinton
 closely
 college
@@ -265,6 +263,7 @@ cry
 currency
 cycle
 cynic
+d
 dad
 dallas
 damage
@@ -321,7 +320,7 @@ disruption
 divide
 doctor
 doe
-doesnt
+doesn
 doing
 dollar
 domestic
@@ -329,7 +328,6 @@ don
 donald
 done
 donor
-dont
 doubled
 down
 dream
@@ -346,7 +344,6 @@ early
 east
 economic
 economy
-economyagain
 edited
 education
 egregious
@@ -406,7 +403,6 @@ face
 facing
 fact
 factory
-factsdecades
 fail
 failed
 failing
@@ -505,7 +501,6 @@ he
 head
 hear
 heard
-hed
 helping
 helpless
 here
@@ -524,7 +519,7 @@ honestly
 honor
 honored
 horrible
-horriblythese
+horribly
 hospital
 house
 household
@@ -647,6 +642,7 @@ listen
 live
 lived
 living
+ll
 lobbyist
 location
 long
@@ -852,7 +848,7 @@ profound
 program
 progress
 project
-promisewe
+promise
 properly
 property
 proposed
@@ -882,6 +878,7 @@ radical
 railway
 rake
 rather
+re
 reached
 read
 really
@@ -989,7 +986,6 @@ setting
 share
 shaw
 she
-shes
 shocked
 shooting
 shortly
@@ -1071,6 +1067,7 @@ sympathy
 syria
 syrian
 system
+t
 take
 taken
 talked
@@ -1092,7 +1089,6 @@ terrorist
 than
 thank
 that
-thats
 theft
 their
 them
@@ -1102,7 +1098,6 @@ there
 thereafter
 these
 they
-theyre
 thing
 think
 third
@@ -1180,7 +1175,6 @@ vision
 visit
 visited
 voice
-voicei
 wa
 wage
 waiting
@@ -1191,7 +1185,7 @@ want
 war
 warm
 warmth
-wasnt
+wasn
 wasteful
 watched
 watching
@@ -1201,11 +1195,9 @@ wealth
 weapon
 week
 welcome
-well
 were
 west
 what
-whats
 when
 where
 which
@@ -1225,9 +1217,9 @@ with
 without
 witnessed
 woman
+won
 wonder
 wonderful
-wont
 word
 work
 worker
@@ -1238,7 +1230,7 @@ worse
 worst
 worth
 would
-wouldnt
+wouldn
 wounded
 year
 yet
@@ -1248,4 +1240,3 @@ young
 youngest
 your
 youth
-
