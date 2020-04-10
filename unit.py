@@ -1,4 +1,3 @@
-
 from __future__ import print_function	# For Py2/3 compatibility
 import eel
 from nltk.stem import WordNetLemmatizer 
@@ -29,31 +28,30 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
     n = 56
     j = 0
     k = 0
-
-    file = open('./sortedPosting/vector_{}.txt'.format(i), 'w')
     vec = []
+
     while(k < n2 and j < n1 and tokens[k] != ''):   #Make vector untill terms in current doc ends 
         if(ref_words[j] != tokens[k]):
-            # old file.write(str(0))
-            # old file.write('\n')
-            vec.append(0) #new
+            vec.append(0)
+            #file.write(str(0))
+            #file.write('\n')
             j += 1
         else:
-            weight = int(tf[k])*math.log10(int(doc_freq[j])/n)
+            weight = int(tf[k])*(math.log10(int(doc_freq[j]))/n)
             print("{},{}".format(ref_words[j],weight),end=', ')
             dot += pow(weight, 2)                               #Calculation of tf^2 for getting Normalization
             j += 1
             k += 1
-            # old file.write(str(weight))
-            # old file.write('\n')
-            vec.append(weight) #new
+            vec.append(weight)
+            #file.write(str(weight))
+            #file.write('\n')
     while(j < n1):                                         #cat remaining term weights as zero
         if(ref_words[j] == ''):
             j += 1
             continue
-        #oldfile.write('0')
-        #oldfile.write('\n')
-        vec.append(0) #new
+        #file.write('0')
+        #file.write('\n')
+        vec.append(0)
         j += 1
     while(k < n2):
         if(tokens[k] == ''):
@@ -61,15 +59,14 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
             continue
         print(tokens[k])
         k += 1
-    #new
-    vec = [a/math.sqrt(dot) for a in vec]
+    print("\nSquare sum of vector weights = {}".format(dot))
+    ndot = math.sqrt(dot)
+    vec = [v/ndot for v in vec]
+    file = open('./sortedPosting/vector_{}.txt'.format(i), 'w')
     for v in vec:
         file.write(str(v))
         file.write('\n')
-    
-    ###################
     file.close()
-    # old print("\nSquare sum of vector weights = {}".format(dot))
     return dot
 
 #############Vector GEnerator  O(56)#####################################
@@ -94,9 +91,9 @@ def generate_vector():
         data = SP.read()
         tf = data.split('\n')
 
-        dot = generate(ref_words, doc_freq, tokens, tf, i)   # old
-        file1.write(str(math.sqrt(dot)))    # old
-        file1.write('\n')                   #old
+        dot = generate(ref_words, doc_freq, tokens, tf, i)
+        file1.write(str(math.sqrt(dot)))
+        file1.write('\n')
         ST.close()
         SP.close()
     file1.close()
@@ -173,9 +170,7 @@ def mergelists( x1, x2, ind, doc_freq):
             i += 1
         elif x1[i] > x2[j]:  # Attach Document and Position since Second list's doc is smaller
             word.append(x2[j])
-            # old freq_list.append(1)  # New Word Append 1 as frequency
-            freq_list.append(2)
-            
+            freq_list.append(1)  # New Word Append 1 as frequency
             j += 1
         else:
 
@@ -232,7 +227,7 @@ def tokenizer():
             w = ''
             for j in range(len(content)):
 
-                if((content[j] in [' ', '.', '\n',']','-','?']) and w != '' and w != "'"):
+                if((content[j] in [' ', '.', '\n',']','-','?']) and w != '' and w != "'" or (content[j-1]>='a' and content[j-1]<='z' and (content[j]>'z' or content[j]<'a'))):
                     # removing stopwords
                     if(w not in stopwords and w not in ['']):
                         #wor = stemmer.stem(w)
@@ -241,7 +236,7 @@ def tokenizer():
 
                     w = ''
 
-                elif content[j] not in ['', ' ', '[', ',', ':', '?', '(',')','—','"',';',"'",'!','-','.','\n']:
+                elif content[j] not in ['', ' ', '[', ',', ':', '?', '(',')','—','"',';',"'",'!','-','.','\n','']:
                     if(content[j] >= 'A' and content[j] <= 'Z'):  # Case folding
                         w = w+chr(ord(content[j])+32)
                     else:
@@ -253,9 +248,6 @@ def tokenizer():
 
         ST = open('./sortedToken/sort_{}.txt'.format(i), 'w')
         SP = open('./sortedPosting/sort_{}.txt'.format(i), 'w')
-        
-        
-        
         counter = 1
         # Write token and tf to if no preceding word is same as current
         print("Removing Duplicate and Adding termfrequency")
@@ -282,10 +274,7 @@ def Processor():
     ST = open('./sortedToken/sort_{}.txt'.format(0), 'r')
     txt = ST.read()
     x1 = txt.split('\n')
-    #   old   doc_freq = [1]*len(x1)
-    doc_freq = [1]*len(x1)  #new
-
-
+    doc_freq = [1]*len(x1)
     ST.close()
     for i in range(1, 56):
         print("Merging Doc {} with corpus".format(i))
@@ -441,7 +430,7 @@ def process_Query( parsed):
     return result, query_tf, new_parsed
 
 
-def fetch_docs( parsed, query_tf, results,extra_weight):
+def fetch_docs( parsed, query_tf, results):
     #print(query_tf)
     #print(results)
     global doc_freq
@@ -450,23 +439,18 @@ def fetch_docs( parsed, query_tf, results,extra_weight):
     doc_freq = file.read().split('\n')
     file.close()
     weight = []
-    que_vec_denom_sq = extra_weight
     print("Genrating Vector From Query")
-    print(extra_weight)
+    denom = 0
     for i in range(len(results)):     #Making Vector from query term tf
         print("Document Frequency of {} = {}".format(
             parsed[i], doc_freq[results[i]]))
-        query_vector.append(math.log10(
-            int(doc_freq[results[i]])/56)*query_tf[i])
-        que_vec_denom_sq += pow(math.log10(int(doc_freq[results[i]])/56)*query_tf[i],2)
-        print(que_vec_denom_sq)
-        print("{}-->{}".format(parsed[i],math.log10(int(doc_freq[results[i]])/56)*query_tf[i]))
-    query_vector = [q/math.sqrt(que_vec_denom_sq) for q in query_vector ]
-    val=0
-    for l in query_vector:
-        val+=pow(l,2)    
-    
-    print("Mod Of Query Vector {}".format(math.sqrt(val)))
+        query_vector.append((math.log10(
+            int(doc_freq[results[i]]))/56)*query_tf[i])
+        denom+=pow(((math.log10(
+            int(doc_freq[results[i]]))/56)*query_tf[i]),2)
+        print("{}-->{}".format(parsed[i],(math.log10(int(doc_freq[results[i]]))/56)*query_tf[i]))
+    denom = math.sqrt(denom)
+    query_vector = [q/denom for q in query_vector]
     print("------------")
     print("Query Vector")
     print(query_vector)
@@ -478,16 +462,16 @@ def fetch_docs( parsed, query_tf, results,extra_weight):
         vector = file.read().split('\n')
         ans = 0
         a = 0
-        print("Cosine For Vector {}".format(i))
+        print("Vector For Doc {}".format(i))
+        print("<",end='')
         for j in range(len(query_vector)):
+            print("{},".format(vector[results[j]]),end=' ')
             ans = ans+query_vector[j]*float(vector[results[j]])
             a += pow(query_vector[j], 2)
-
+        print(">")
         b = float(normal_vectors[i])
         try:
-            # old rslt = round(ans/(math.sqrt(a)*b), 6)
-            # old print("<A><B>/|A||B| = {}/ |{}||{}|".format(ans,math.sqrt(a),b))
-            rslt = round(ans/1, 6)
+            rslt = round(ans/1, 10)
             print("<A><B>/|A||B| = {}/ |{}||{}|".format(ans,1,1))
         except:
             rslt = 0
@@ -512,22 +496,22 @@ def entertain(text,cutoff,choice):
     print(parsed)
     eel.say_hello_js("Processing Query ...")      #Send current status to frontend
     results,query_tf,parsed = process_Query(parsed)
-    extra_weight = 0
+
     for i in range(len(results)-1,-1,-1): #Remove words from query which are not in corpus
         if(results[i]==-1):
             parsed.pop(i)
             results.pop(i)
             query_tf.pop(i)
-            extra_weight+=pow(math.log10(1/56),2)
 
-    result = fetch_docs(parsed,query_tf,results,extra_weight)
+    result = fetch_docs(parsed,query_tf,results)
     docs = []
     print("Result Of Cosine Calculation")
-    print(result)
+    
     for i in range(56):
         docs.append(i)
     sort_doc(result,docs,0,len(result)-1)
     print(list(zip(docs,result)))
+
     ans =[]
     counter =0
     print("Cutoff",end='->')
@@ -598,3 +582,5 @@ def say_hello_py(query,cutoff,choice):
 
    # Call a Javascript function
 eel.start('index.html', size=(800, 800))
+
+

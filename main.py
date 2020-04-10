@@ -37,7 +37,7 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
             file.write('\n')
             j += 1
         else:
-            weight = int(tf[k])*math.log10(int(doc_freq[j])/n)
+            weight = int(tf[k])*(math.log10(int(doc_freq[j]))/n)
             print("{},{}".format(ref_words[j],weight),end=', ')
             dot += pow(weight, 2)                               #Calculation of tf^2 for getting Normalization
             j += 1
@@ -435,9 +435,9 @@ def fetch_docs( parsed, query_tf, results):
     for i in range(len(results)):     #Making Vector from query term tf
         print("Document Frequency of {} = {}".format(
             parsed[i], doc_freq[results[i]]))
-        query_vector.append(math.log10(
-            int(doc_freq[results[i]])/56)*query_tf[i])
-        print("{}-->{}".format(parsed[i],math.log10(int(doc_freq[results[i]])/56)*query_tf[i]))
+        query_vector.append((math.log10(
+            int(doc_freq[results[i]]))/56)*query_tf[i])
+        print("{}-->{}".format(parsed[i],(math.log10(int(doc_freq[results[i]]))/56)*query_tf[i]))
     print("------------")
     print("Query Vector")
     print(query_vector)
@@ -494,7 +494,7 @@ def entertain(text,cutoff,choice):
     docs = []
     print("Result Of Cosine Calculation")
     
-    for i in range(56):
+    for i in range(56):                     #print answer and related docs
         docs.append(i)
     sort_doc(result,docs,0,len(result)-1)
     print(list(zip(docs,result)))
@@ -504,7 +504,7 @@ def entertain(text,cutoff,choice):
     print("Cutoff",end='->')
     print(float(cutoff))
     for i in range(len(result)):
-        real_query = copy.deepcopy(parsed)
+        real_query = copy.deepcopy(parsed)          #Copying Orijinal Query
         text = ""
         if(result[i]>=float(cutoff)):
             text+="(Doc#{}--{})\n".format(docs[i],result[i])
@@ -515,7 +515,7 @@ def entertain(text,cutoff,choice):
             data = file.read().split('.')
             counter1 = 0
             flag=0
-            for line in data:
+            for line in data:     #Find if query word is in this line
                 for k in range(len(real_query)-1,-1,-1):
                     if real_query[k] in line.lower() or lemmatizer.lemmatize(real_query[k]) in line.lower():
                         text+=line
