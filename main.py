@@ -19,7 +19,7 @@ except:
     pass
 
 
-######Vctor Generater#########O(n1+n2)
+######Vctor Generater#########     O(n1+n2)
 def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
     print("Generating Vector {}".format(i))
     n1 = len(ref_words)               #Vector Length I equal to total no of terms
@@ -262,21 +262,21 @@ def tokenizer():
 #Document as a BLOCK sorting done
 
 def Processor():
-    print("IN funtion Processor")
+    print("IN fucntion Processor")
     ST = open('./sortedToken/sort_{}.txt'.format(0), 'r')
     txt = ST.read()
     x1 = txt.split('\n')
     doc_freq = [1]*len(x1)
     ST.close()
-    for i in range(1, 56):
-        print("Merging Doc {} with corpus".format(i))
+    for i in range(1, 56):                                  #Takes tokens and respective term frequency from each token file and 
+        print("Merging Doc {} with corpus".format(i))       # combiens with a unified corpus writing doc frequency to sortedPosting.sort
         ST = open('./sortedToken/sort_{}.txt'.format(i), 'r')
         txt = ST.read()
         x2 = txt.split('\n')
         x1, doc_freq = mergelists(x1, x2, i, doc_freq)
         ST.close()
 
-    file = open('./sortedToken/sort.txt', 'w')
+    file = open('./sortedToken/sort.txt', 'w')        #Writing Doc Frequency to file
     for i in range(len(x1)):
         file.write(x1[i])
         file.write('\n')
@@ -286,9 +286,11 @@ def Processor():
         file.write(str(doc_freq[i]))
         file.write('\n')
     file.close()
+    generate_vector()    
 
-    generate_vector()
 
+
+#############Merge sorted terms of each doc ############
 def merge_doc( arr, pos, l, m, r):
     n1 = m - l + 1
     n2 = r - m
@@ -333,7 +335,7 @@ def merge_doc( arr, pos, l, m, r):
         j += 1
         k += 1
 
-def sort_doc( arr, pos, l, r):
+def sort_doc( arr, pos, l, r):        #######Sort tokenized terms of documents
     if l < r:
         m = int((l+(r-1))/2)
         sort_doc(arr, pos, l, m)
@@ -367,7 +369,7 @@ def parse_Query( query):
     if w not in ['', ",", ' ']:
         parsed.append(w)
     for i in range(len(parsed)-1, -1, -1):
-        if(parsed[i] in stopwords):
+        if(parsed[i] in stopwords):   #######Removing Stop Words #######
             print("{} removed".format(parsed[i]))
             parsed.pop(i)
         else:
@@ -378,7 +380,7 @@ def parse_Query( query):
     print("Sorted Query = {}".format(parsed))
     return parsed
 
-def binarySearch( arr, l, r, x):
+def binarySearch( arr, l, r, x):   ###########Search Words IN query through Binary searcg    Log(n)
 
     while l <= r:
 
@@ -507,7 +509,7 @@ def entertain(text,cutoff,choice):
         real_query = copy.deepcopy(parsed)          #Copying Orijinal Query
         text = ""
         if(result[i]>=float(cutoff)):
-            text+="(Doc#{}--{})\n".format(docs[i],result[i])
+            text+="<div style='color:blue'>Doc#{}--{}</div>\n".format(docs[i],result[i])
             counter+=1
 
             #Fetch Summary   ###########This Part Is Extra And is done via python builtin methods
@@ -520,7 +522,7 @@ def entertain(text,cutoff,choice):
                     if real_query[k] in line.lower() or lemmatizer.lemmatize(real_query[k]) in line.lower():
                         text+=line
                         text+='\n'
-                        text+="                              -----------------------------------"
+                        text+="<div style='color:blue'>                              -----------------------------------</div>"
                         text+='\n'
                         real_query.pop(k)
                         counter1+=1
@@ -535,11 +537,11 @@ def entertain(text,cutoff,choice):
     
     ans.reverse()
     print(counter)
-    res = "Lenght = {}\n\n".format(counter)
+    res = "<div style='color:red;text-decoration:underline'>Lenght = {}\n\n</div>".format(counter)
     for a in ans:
         print(a)
         res+=a
-        res+="                        ************************************************************\n"
+        res+="<div style='color:magenta'>                 ************************************************************</div>\n"
     return res
 
 
@@ -568,6 +570,6 @@ def say_hello_py(query,cutoff,choice):
 
 
    # Call a Javascript function
-eel.start('index.html', size=(800, 800))
+eel.start('index.html', size=(1000, 1080))
 
 

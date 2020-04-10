@@ -520,7 +520,7 @@ def entertain(text,cutoff,choice):
         real_query = copy.deepcopy(parsed)
         text = ""
         if(result[i]>=float(cutoff)):
-            text+="(Doc#{}--{})\n".format(docs[i],result[i])
+            text+="<div style='color:blue'>Doc#{}--{}</div>\n".format(docs[i],result[i])
             counter+=1
 
             #Fetch Summary   ###########This Part Is Extra And is done via python builtin methods
@@ -533,7 +533,7 @@ def entertain(text,cutoff,choice):
                     if real_query[k] in line.lower() or lemmatizer.lemmatize(real_query[k]) in line.lower():
                         text+=line
                         text+='\n'
-                        text+="                              -----------------------------------"
+                        text+="<div style='color:blue'>                              -----------------------------------</div>"
                         text+='\n'
                         real_query.pop(k)
                         counter1+=1
@@ -552,7 +552,7 @@ def entertain(text,cutoff,choice):
     for a in ans:
         print(a)
         res+=a
-        res+="                        ************************************************************\n"
+        res+="<div style='color:magenta'>            ************************************************************</div>\n"
     return res
 
 
@@ -581,6 +581,6 @@ def say_hello_py(query,cutoff,choice):
 
 
    # Call a Javascript function
-eel.start('index.html', size=(800, 800))
+eel.start('index.html', size=(19200, 1080))
 
 

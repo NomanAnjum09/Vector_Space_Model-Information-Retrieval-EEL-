@@ -1,8 +1,10 @@
 body{
-    background: url('../images/IR10.jpg');
+    background-image:  linear-gradient(to right, rgb(148, 226, 178) 1%, rgb(2, 255, 200) 12%, rgba(21, 210, 235, 0.22) 70%,
+     rgba(16, 227, 255, 0.22) 100%), url('../images/IR10.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;    
+    background-size: 100% 100%;
+        
 }
 h1{
     position: relative;
@@ -20,7 +22,9 @@ margin-left: 10%;
     margin-left: 20%;
 }
 
-
+#input1{
+    border-radius: 20px;
+}
 
 #sp1{
  color: crimson;   
@@ -44,7 +48,7 @@ margin-left: 10%;
     color: brown;
 }
 #sp8{
-    color: cyan;
+    color: rgb(255, 238, 0);
 }
 #sp9{
     color: magenta;
