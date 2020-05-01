@@ -23,3 +23,7 @@ To verify unit vector optimization:
 
 Note:
     While Switching From One Model to Other Run From Scratch To Rebuild Indexes
+    
+Future Work:
+    Generation of indexes(ie:documentFrequency,Term Frequency and Vectors) are written on different file for each document.
+    Using Json object for content of each file and saving all objects on a single file will be more efficient in term of performance as only 1 IO will be required.
