@@ -12,13 +12,13 @@ How To Run:
 5) Type 'pipenv shell'
 
 To run simple tf*idf model:
-    Type 'python main.py'
+    Type 'python3 main.py'
 
 To run tf*idf model with unit vector optimization":
-    Type 'python unit.py'
+    Type 'python3 unit.py'
 
 To verify unit vector optimization:
-    Type 'practice.py'
+    Type python3 'practice.py'
 
 
 Note:
