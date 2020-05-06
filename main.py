@@ -5,15 +5,33 @@ import math
 from nltk.stem.porter import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 import nltk
+import json
 nltk.download('wordnet')
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer() 
 Ltoken = []
 Lposting = []
-doc_freq = None
+
+corpus = None
+weights = None
+documentFreq = None
+vectors = None 
 try:
-    file = open('./sortedPosting/sort.txt')
-    doc_freq = file.read().split('\n')
+   
+    file=open('./Data/Corpus.txt','r')
+    corpus = file.read().split(',')
+    file.close()
+
+    file=open('./Data/DocumentFrequency.txt','r')
+    documentFreq = file.read().split(',')
+    file.close()
+
+    file=open('./Data/Weights.txt','r')
+    weights = file.read().split(',')
+    file.close()
+
+    file=open('./Data/Vectors.txt','r')
+    vectors = json.load(file)
     file.close()
 except:
     pass
@@ -28,13 +46,11 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
     n = 56
     j = 0
     k = 0
-
-    file = open('./sortedPosting/vector_{}.txt'.format(i), 'w')
-
+    
+    vector = []
     while(k < n2 and j < n1 and tokens[k] != ''):   #Make vector untill terms in current doc ends 
         if(ref_words[j] != tokens[k]):
-            file.write(str(0))
-            file.write('\n')
+            vector.append(0)
             j += 1
         else:
             weight = int(tf[k])*(math.log10(int(doc_freq[j]))/n)
@@ -42,14 +58,13 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
             dot += pow(weight, 2)                               #Calculation of tf^2 for getting Normalization
             j += 1
             k += 1
-            file.write(str(weight))
-            file.write('\n')
+            vector.append(weight)
+          
     while(j < n1):                                         #cat remaining term weights as zero
         if(ref_words[j] == ''):
             j += 1
             continue
-        file.write('0')
-        file.write('\n')
+        vector.append(0)
         j += 1
     while(k < n2):
         if(tokens[k] == ''):
@@ -57,40 +72,40 @@ def generate( ref_words, doc_freq, tokens, tf, i):  #Genrates Vector
             continue
         print(tokens[k])
         k += 1
-    file.close()
     print("\nSquare sum of vector weights = {}".format(dot))
-    return dot
+    return dot,vector
 
 #############Vector GEnerator  O(56)#####################################
-def generate_vector():
+def generate_vector(all_vocab,all_tf,doc_vocab,doc_tf):
+
+    
+    
     print("In funtion vector genrator")
-    file = open('./sortedToken/sort.txt', 'r')
-    data = file.read()
-    ref_words = data.split('\n')
-    file.close()
-    file = open('./sortedPosting/sort.txt', 'r')
-    file1 = open('./sortedPosting/normalDocs.txt', 'w')
-
-    data = file.read()
-    doc_freq = data.split('\n')
-    file.close()
-    print("Sending Term Frequencies For Generaring Vector")
+    ref_words = all_vocab
+    doc_freq = all_tf
+    weights = []
+    vectors = {}
+    print("Sending Term Frequencies For Generating Vector")
     for i in range(56):                                       #Open all docs and send all terms and terms in current doc for vector generation
-        ST = open('./sortedToken/sort_{}.txt'.format(i), 'r') #read terms
-        SP = open('./sortedPosting/sort_{}.txt'.format(i), 'r')  #read correponsing term freq
-        data = ST.read()
-        tokens = data.split('\n')
-        data = SP.read()
-        tf = data.split('\n')
+        tokens = doc_vocab[i]
+        tf = doc_tf[i]
+        dot,vector = generate(ref_words, doc_freq, tokens, tf, i )
+        vectors[i] = vector
+        weights.append(math.sqrt(dot))
+        
 
-        dot = generate(ref_words, doc_freq, tokens, tf, i)
-        file1.write(str(math.sqrt(dot)))
-        file1.write('\n')
-        ST.close()
-        SP.close()
-    file1.close()
-
-
+    file = open('./Data/Corpus.txt','w')
+    file.write(",".join(map(str, all_vocab)))
+    file.close()
+    file = open('./Data/DocumentFrequency.txt','w')
+    file.write(",".join(map(str, all_tf)))
+    file.close()
+    file = open('./Data/Weights.txt','w')
+    file.write(",".join(map(str, weights)))
+    file.close()
+    file = open('./Data/Vectors.txt','w')
+    json.dump(vectors,file)
+    file.close()
 ######################mergesort  O(n)###################################
 
 
@@ -197,7 +212,7 @@ def tokenizer():
     global err
     global Ltoken
     stopwords = []
-    s = open('Stopword-List.txt', 'r')  # picking stopwords
+    s = open('./Data/Stopword-List.txt', 'r')  # picking stopwords
     stopdoc = s.read()
     w = ''
     for i in range(len(stopdoc)):
@@ -209,7 +224,8 @@ def tokenizer():
             w += stopdoc[i]
     s.close()
 #Tokenize stem fold case of words
-
+    doc_vocab = {}
+    doc_tf = {}
     for i in range(56):
         print("Toeknizing Doc {}".format(i))
         f = open('./Trump Speechs/speech_{}.txt'.format(i))
@@ -237,56 +253,48 @@ def tokenizer():
         # Sorting and adding frequency of Tokens In file
         print("Sorting Tokens Withing Document")
         mergeSort(Ltoken, 0, len(Ltoken)-1)
-
-        ST = open('./sortedToken/sort_{}.txt'.format(i), 'w')
-        SP = open('./sortedPosting/sort_{}.txt'.format(i), 'w')
+        
+       
+        
+        
         counter = 1
         # Write token and tf to if no preceding word is same as current
         print("Removing Duplicate and Adding termfrequency")
+        words = []
+        tf = []
         for l in range(0, len(Ltoken)-1):
             if Ltoken[l] != Ltoken[l+1]:
-                ST.write(Ltoken[l])
-                SP.write(str(counter))
-                ST.write('\n')
-                SP.write('\n')
+
+                words.append(Ltoken[l])
+                tf.append(counter)
                 counter = 1
             else:
                 counter += 1  # preceding word is same increase tf
-
-        ST.write(Ltoken[len(Ltoken)-1])
-        SP.write(str(counter))
+        words.append(Ltoken[len(Ltoken)-1])
+        tf.append(counter)
+        doc_vocab[i] = words
+        doc_tf[i] = tf
         Ltoken.clear()
-        ST.close()
-        SP.close()
-
+       
 #Document as a BLOCK sorting done
-
-def Processor():
-    print("IN fucntion Processor")
-    ST = open('./sortedToken/sort_{}.txt'.format(0), 'r')
-    txt = ST.read()
-    x1 = txt.split('\n')
+    
+    return doc_vocab,doc_tf
+def Processor(doc_vocab,doc_tf):
+    print("IN fucntion Processor")    
+    x1 = doc_vocab[0]
     doc_freq = [1]*len(x1)
-    ST.close()
     for i in range(1, 56):                                  #Takes tokens and respective term frequency from each token file and 
         print("Merging Doc {} with corpus".format(i))       # combiens with a unified corpus writing doc frequency to sortedPosting.sort
-        ST = open('./sortedToken/sort_{}.txt'.format(i), 'r')
-        txt = ST.read()
-        x2 = txt.split('\n')
+        x2 = doc_vocab[i]
         x1, doc_freq = mergelists(x1, x2, i, doc_freq)
-        ST.close()
-
-    file = open('./sortedToken/sort.txt', 'w')        #Writing Doc Frequency to file
+    all_vocab = []
+         #Writing Doc Frequency
     for i in range(len(x1)):
-        file.write(x1[i])
-        file.write('\n')
-    file.close()
-    file = open('./sortedPosting/sort.txt', 'w')
+        all_vocab.append(x1[i])
+        all_tf = []
     for i in range(len(doc_freq)):
-        file.write(str(doc_freq[i]))
-        file.write('\n')
-    file.close()
-    generate_vector()    
+        all_tf.append(doc_freq[i])
+    generate_vector(all_vocab,all_tf,doc_vocab,doc_tf)    
 
 
 
@@ -344,7 +352,7 @@ def sort_doc( arr, pos, l, r):        #######Sort tokenized terms of documents
 
 def parse_Query( query):
     stopwords = []
-    s = open('Stopword-List.txt', 'r')
+    s = open('./Data/Stopword-List.txt', 'r')
     stopdoc = s.read()
     w = ''
     print("Removing StopWords")
@@ -401,9 +409,8 @@ def binarySearch( arr, l, r, x):   ###########Search Words IN query through Bina
     # If we reach here, then the element was not present
     return -1
 
-def process_Query( parsed):
-    file = open('./sortedToken/sort.txt', 'r')
-    tokens = file.read().split('\n')                #read toekns from query
+def process_Query( parsed,corpus):
+    tokens = corpus
     count = 1
     new_parsed = []
     query_tf = []
@@ -424,14 +431,12 @@ def process_Query( parsed):
     return result, query_tf, new_parsed
 
 
-def fetch_docs( parsed, query_tf, results):
-    #print(query_tf)
+def fetch_docs( parsed, query_tf, results,all_vectors,weights,documentFreq):
+    
     #print(results)
-    global doc_freq
     query_vector = []
-    file = open('./sortedPosting/sort.txt')    # Open Doc frequency of all terms
-    doc_freq = file.read().split('\n')
-    file.close()
+    doc_freq = documentFreq
+    ########
     weight = []
     print("Genrating Vector From Query")
     for i in range(len(results)):     #Making Vector from query term tf
@@ -444,11 +449,11 @@ def fetch_docs( parsed, query_tf, results):
     print("Query Vector")
     print(query_vector)
     print("------------")
-    file1 = open('./sortedPosting/normalDocs.txt', 'r')
-    normal_vectors = file1.read().split('\n')
+    normal_vectors = weights
+    vectors = all_vectors
+    
     for i in range(56):                                                         #Vector addition of term in query with terms in each doc. Only weights 
-        file = open('./sortedPosting/vector_{}.txt'.format(i), 'r')             # of intersecting terms are fetched and operation is performed
-        vector = file.read().split('\n')
+        vector = vectors[str(i)]
         ans = 0
         a = 0
         print("Vector For Doc {}".format(i))
@@ -472,19 +477,38 @@ def fetch_docs( parsed, query_tf, results):
 import copy
 def entertain(text,cutoff,choice):
     
-
+    global vectors
+    global weights
+    global documentFreq
+    global corpus
     parsed = parse_Query(text)
-    if(choice==1):
+    if(choice==1 and vectors!=None and weights!=None and documentFreq!=None and corpus!=None ):
         print("Using Preprocessed Data")
         pass
     else:
+        
         print("Running From Scratch")              #Run from scratch if flag is on
-        tokenizer()
-        Processor()
+        doc_vocab,doc_freq = tokenizer()
+        Processor(doc_vocab,doc_freq)
+        file=open('./Data/Corpus.txt','r')
+        corpus = file.read().split(',')
+        file.close()
+
+        file=open('./Data/DocumentFrequency.txt','r')
+        documentFreq = file.read().split(',')
+        file.close()
+
+        file=open('./Data/Weights.txt','r')
+        weights = file.read().split(',')
+        file.close()
+
+        file=open('./Data/Vectors.txt','r')
+        vectors = json.load(file)
+        file.close()
     
     print(parsed)
     eel.say_hello_js("Processing Query ...")      #Send current status to frontend
-    results,query_tf,parsed = process_Query(parsed)
+    results,query_tf,parsed = process_Query(parsed,corpus)
 
     for i in range(len(results)-1,-1,-1): #Remove words from query which are not in corpus
         if(results[i]==-1):
@@ -492,7 +516,7 @@ def entertain(text,cutoff,choice):
             results.pop(i)
             query_tf.pop(i)
 
-    result = fetch_docs(parsed,query_tf,results)
+    result = fetch_docs(parsed,query_tf,results,vectors,weights,documentFreq)
     docs = []
     print("Result Of Cosine Calculation")
     
@@ -562,7 +586,7 @@ eel.init('web')
 @eel.expose                         # Expose this function to Javascript
 def say_hello_py(query,cutoff,choice):
     global doc_freq
-    if doc_freq==None or choice==0:
+    if vectors==None or weights==None or documentFreq==None or corpus==None or choice==0:
         eel.say_hello_js("Building Indexes ...")
         choice = 0
     result = entertain(query,cutoff,choice)
