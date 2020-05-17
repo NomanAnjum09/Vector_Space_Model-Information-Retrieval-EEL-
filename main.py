@@ -3,7 +3,6 @@ import eel
 from nltk.stem import WordNetLemmatizer 
 import math  
 from nltk.stem.porter import *
-from PyQt5 import QtCore, QtGui, QtWidgets
 import nltk
 import json
 nltk.download('wordnet')
